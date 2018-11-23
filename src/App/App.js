@@ -1,30 +1,33 @@
-import React from "react";
-import { Platform, StyleSheet, Text, View } from "react-native";
+import React from 'react';
+import { Platform, StyleSheet, Text, View } from 'react-native';
+
+// eslint-disable-next-line import/no-unresolved
+import { ENV } from '@env';
 
 const instructions = Platform.select({
-  ios: "Press Cmd+R to reload,\nCmd+D or shake for dev menu",
+  ios: 'Press Cmd+R to reload,\nCmd+D or shake for dev menu',
   android:
-    "Double tap R on your keyboard to reload,\n" +
-    "Shake or press menu button for dev menu"
+    'Double tap R on your keyboard to reload,\n' +
+    'Shake or press menu button for dev menu',
 });
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#F5FCFF"
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
   },
   welcome: {
     fontSize: 20,
-    textAlign: "center",
-    margin: 10
+    textAlign: 'center',
+    margin: 10,
   },
   instructions: {
-    textAlign: "center",
-    color: "#333333",
-    marginBottom: 5
-  }
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5,
+  },
 });
 
 const App = () => (
@@ -35,4 +38,7 @@ const App = () => (
   </View>
 );
 
-export default App;
+export default (ENV && ENV.toLowerCase() === 'storybook'
+  ? // eslint-disable-next-line global-require
+    require('../../storybook')
+  : App);
