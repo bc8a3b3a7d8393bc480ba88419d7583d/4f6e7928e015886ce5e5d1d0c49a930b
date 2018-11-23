@@ -4,19 +4,14 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-
     "test": "jest",
     "test:coverage": "jest --coverage",
-
     "prettier": "prettier --write  \"./**/*.js\"",
     "lint": "eslint 'src/**/*.js'",
-
     "ios": "react-native run-ios",
     "android": "react-native run-android",
-
     "storybook": "storybook start -p 7007",
     "prestorybook": "rnstl",
-
     "icon:build": "make fontello"
   },
   "dependencies": {
@@ -28,6 +23,7 @@
     "react": "16.6.1",
     "react-native": "^0.55.4",
     "react-native-i18n": "^2.0.15",
+    "react-native-vector-icons": "^6.1.0",
     "react-navigation": "^3.0.0",
     "react-navigation-redux-helpers": "^2.0.8",
     "react-redux": "^5.1.1",
@@ -47,6 +43,9 @@
     "babel-eslint": "^10.0.1",
     "babel-jest": "23.6.0",
     "babel-runtime": "^6.26.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "enzyme-to-json": "^3.3.4",
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.3.0",
@@ -78,12 +77,14 @@
       "searchDir": [
         "./src"
       ],
-      "pattern": "**/*.stories.js",
+      "pattern": "**/*.story.js",
       "outputFile": "./storybook/storyLoader.js"
     }
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "setupTestFrameworkScriptFile": "./test/index.js",
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
   },
   "husky": {
     "hooks": {
