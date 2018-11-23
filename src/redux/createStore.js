@@ -3,6 +3,7 @@ import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import promiseMiddleware from 'redux-promise-middleware';
 import { persistStore, persistReducer } from 'redux-persist';
+
 import { is } from 'ramda';
 
 import { isDEV } from '../utils/platform.util';
@@ -10,12 +11,15 @@ import { persistConfig } from '../configs';
 
 import rootReducer from './reducer';
 
+import navigationMiddleware from '../modules/Navigation/Navigation.middleware';
+
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 const middleware = [
   thunk,
   promiseMiddleware({
     promiseTypeSuffixes: ['LOADING', 'SUCCESS', 'ERROR'],
   }),
+  navigationMiddleware,
 ];
 const enhancers = [applyMiddleware(...middleware)];
 const getComposer = () => {
