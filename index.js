@@ -1,7 +1,8 @@
-/** @format */
+/* eslint-disable */
+import { ENV } from '@env';
 
-import { AppRegistry } from "react-native";
-import App from "./src/App/App";
-import { name as appName } from "./app.json";
-
-AppRegistry.registerComponent(appName, () => App);
+if (ENV === 'storybook') {
+  require('./src');
+} else {
+  require('./storybook');
+}
