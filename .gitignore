@@ -1,4 +1,5 @@
 .idea/watcherTasks.xml
 .idea/codeStyles/codeStyleConfig.xml
 .idea/codeStyles/Project.xml
-coverage
+coverage/
+build/

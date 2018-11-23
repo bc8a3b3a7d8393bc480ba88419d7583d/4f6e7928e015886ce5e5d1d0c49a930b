@@ -7,7 +7,10 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "prettier": "prettier --write  \"./**/*.js\""
+    "prettier": "prettier --write  \"./**/*.js\"",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android",
+    "storybook": "storybook start"
   },
   "dependencies": {
     "react": "16.6.1",
@@ -27,7 +30,15 @@
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.49.2",
     "prettier": "^1.15.2",
-    "react-test-renderer": "16.6.1"
+    "react-test-renderer": "16.6.1",
+    "@storybook/react-native": "^4.0.8",
+    "@storybook/addon-actions": "^4.0.8",
+    "@storybook/addon-links": "^4.0.8",
+    "@storybook/addons": "^4.0.8",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react-dom": "16.6.1",
+    "prop-types": "^15.6.2"
   },
   "jest": {
     "preset": "react-native"
