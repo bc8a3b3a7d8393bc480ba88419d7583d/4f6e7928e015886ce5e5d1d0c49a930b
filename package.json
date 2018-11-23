@@ -4,14 +4,20 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+
     "test": "jest",
     "test:coverage": "jest --coverage",
+
     "prettier": "prettier --write  \"./**/*.js\"",
     "lint": "eslint 'src/**/*.js'",
+
     "ios": "react-native run-ios",
     "android": "react-native run-android",
+
     "storybook": "storybook start -p 7007",
-    "prestorybook": "rnstl"
+    "prestorybook": "rnstl",
+
+    "icon:build": "make fontello"
   },
   "dependencies": {
     "babel-plugin-dotenv-import": "^2.0.0",
@@ -48,6 +54,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
+    "fontello-cli": "^0.4.0",
     "husky": "^1.2.0",
     "jest": "23.6.0",
     "lint-staged": "^8.1.0",
@@ -83,5 +90,11 @@
       "pre-commit": "lint-staged && yarn lint",
       "pre-push": "yarn lint && yarn test"
     }
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts/",
+      "./src/assets/fontello/"
+    ]
   }
 }
