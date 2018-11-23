@@ -1,9 +1,6 @@
 import React from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 
-// eslint-disable-next-line import/no-unresolved
-import { ENV } from '@env';
-
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\nCmd+D or shake for dev menu',
   android:
@@ -38,7 +35,4 @@ const App = () => (
   </View>
 );
 
-export default (ENV && ENV.toLowerCase() === 'storybook'
-  ? // eslint-disable-next-line global-require
-    require('../../storybook')
-  : App);
+export default App;
