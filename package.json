@@ -15,8 +15,19 @@
   },
   "dependencies": {
     "babel-plugin-dotenv-import": "^2.0.0",
+    "i18n-js": "^3.1.0",
+    "moment": "^2.22.2",
+    "ramda": "^0.26.0",
     "react": "16.6.1",
-    "react-native": "^0.55.4"
+    "react-native": "^0.55.4",
+    "react-native-i18n": "^2.0.15",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.4",
+    "redux-persist": "^5.10.0",
+    "redux-promise-middleware": "^5.1.1",
+    "redux-thunk": "^2.3.0",
+    "type-to-reducer": "^1.1.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^4.0.8",
@@ -38,6 +49,7 @@
     "jest": "23.6.0",
     "lint-staged": "^8.1.0",
     "metro-react-native-babel-preset": "0.49.2",
+    "mockdate": "^2.0.2",
     "prettier": "^1.15.2",
     "prop-types": "^15.6.2",
     "react-dom": "16.6.1",
