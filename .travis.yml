@@ -22,5 +22,9 @@ install: yarn install
 jobs:
   include:
   - stage: test
-    script: yarn test:coverage
-    after_script: bash <(curl -s https://codecov.io/bash)
+    script:
+      - npm install -g codeclimate-test-reporter
+      - yarn test:coverage
+    after_script:
+      - bash <(curl -s https://codecov.io/bash)
+      - codeclimate-test-reporter < coverage/lcov/lcov.info
