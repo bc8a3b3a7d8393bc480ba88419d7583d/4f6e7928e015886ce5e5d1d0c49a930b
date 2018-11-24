@@ -4,8 +4,10 @@ import { METRICS, TEXT_STYLES } from '../../../../themes/index';
 const styles = StyleSheet.create({
   container: {},
   logo: {
-    width: 60,
-    height: 60,
+    marginTop: 50,
+    width: 180,
+    height: 52,
+    alignSelf: 'center',
   },
   welcomeText: {
     ...TEXT_STYLES.h1,

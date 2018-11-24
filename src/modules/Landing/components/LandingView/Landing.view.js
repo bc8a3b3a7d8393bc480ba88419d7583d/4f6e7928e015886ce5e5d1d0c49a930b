@@ -20,7 +20,11 @@ const LandingView = ({
         countryCode={countryCode}
         countryName={countryName}
       />
-      <LanguageList onSelectLanguage={onSelectLanguage} />
+      <LanguageList
+        onSelectLanguage={onSelectLanguage}
+        languageCode={languageCode}
+        countryCode={countryCode}
+      />
     </ScrollView>
     <Footer />
   </View>

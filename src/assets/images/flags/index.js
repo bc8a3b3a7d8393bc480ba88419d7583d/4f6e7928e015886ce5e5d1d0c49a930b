@@ -1,5 +1,5 @@
 /* eslint-disable global-require */
-const flagIcons = {
+const FlagImages = {
   ID: require('./ID.png'),
   MY: require('./MY.png'),
   PH: require('./PH.png'),
@@ -8,4 +8,4 @@ const flagIcons = {
   VN: require('./VN.png'),
 };
 
-export default flagIcons;
+export default FlagImages;

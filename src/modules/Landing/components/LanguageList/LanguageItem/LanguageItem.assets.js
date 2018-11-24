@@ -1,6 +1,6 @@
-import { flagIcons } from '../../../../../assets/images';
+import { FlagImages } from '../../../../../assets/images';
 
-const getFlagIconByCountryCode = countryCode => flagIcons[countryCode];
+const getFlagIconByCountryCode = countryCode => FlagImages[countryCode];
 
 // eslint-disable-next-line import/prefer-default-export
 export { getFlagIconByCountryCode };

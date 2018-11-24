@@ -1,3 +1,4 @@
-import flagIcons from './flags';
+import FlagImages from './flags';
+import AppImages from './app';
 
-export { flagIcons };
+export { FlagImages, AppImages };
