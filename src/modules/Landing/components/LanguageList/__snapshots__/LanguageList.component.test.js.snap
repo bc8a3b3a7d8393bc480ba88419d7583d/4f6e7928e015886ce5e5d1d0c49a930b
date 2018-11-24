@@ -24,20 +24,6 @@ exports[`Modules/Landing - Language List snapshots basic render 1`] = `
       }
     }
     countryCode="VN"
-    countryName="Việt Nam"
-    key="VN-vi"
-    languageCode="vi"
-    languageName="Tiếng Việt"
-    onPress={[MockFunction]}
-    selected={false}
-  />
-  <LanguageItem
-    containerStyle={
-      Object {
-        "marginTop": 5,
-      }
-    }
-    countryCode="VN"
     countryName="Viet Nam"
     key="VN-en"
     languageCode="en"

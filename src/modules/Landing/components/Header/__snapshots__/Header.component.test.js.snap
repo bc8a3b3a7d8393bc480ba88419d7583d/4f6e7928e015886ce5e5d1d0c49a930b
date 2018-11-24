@@ -6,10 +6,17 @@ exports[`Modules/Landing - Header snapshots basic render 1`] = `
 >
   <Image
     resizeMode="contain"
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/app/logo-white.png",
+      }
+    }
     style={
       Object {
-        "height": 60,
-        "width": 60,
+        "alignSelf": "center",
+        "height": 52,
+        "marginTop": 50,
+        "width": 180,
       }
     }
   />
