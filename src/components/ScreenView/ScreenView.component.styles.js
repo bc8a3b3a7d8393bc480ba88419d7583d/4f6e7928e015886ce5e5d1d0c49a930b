@@ -1,13 +1,14 @@
 import { StyleSheet } from 'react-native';
-import { COLORS, METRICS } from '../../../../themes/index';
+import { COLORS, METRICS } from '../../themes';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLORS.background,
   },
-  scrollContent: {
-    padding: METRICS.spacing.normal,
+  statusBar: {
+    flex: 1,
+    marginTop: METRICS.statusBarHeight,
   },
 });
 

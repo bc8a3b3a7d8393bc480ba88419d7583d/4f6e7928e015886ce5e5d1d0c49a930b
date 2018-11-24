@@ -5,8 +5,8 @@ const styles = StyleSheet.create({
   container: {},
   logo: {
     marginTop: 50,
-    width: 180,
-    height: 52,
+    width: 80,
+    height: 66,
     alignSelf: 'center',
   },
   welcomeText: {

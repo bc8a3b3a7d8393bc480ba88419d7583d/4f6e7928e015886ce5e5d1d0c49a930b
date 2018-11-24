@@ -117,7 +117,7 @@ exports[`Modules/Landing - Language Item snapshots should render component when 
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#2B9FDC",
+          "backgroundColor": "#0d7fcc",
           "borderRadius": 10,
           "height": 20,
           "justifyContent": "center",

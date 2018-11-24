@@ -14,9 +14,9 @@ exports[`Modules/Landing - Header snapshots basic render 1`] = `
     style={
       Object {
         "alignSelf": "center",
-        "height": 52,
+        "height": 66,
         "marginTop": 50,
-        "width": 180,
+        "width": 80,
       }
     }
   />

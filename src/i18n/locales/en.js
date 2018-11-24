@@ -3,7 +3,7 @@ export default {
   landing: {
     header: {
       welcome: 'Hello! Welcome to {{appName}}',
-      detectedLanguage: 'Your country and language are detected as:',
+      detectedLanguage: 'Your country and language are selected as:',
     },
     content: {
       selectLanguage:

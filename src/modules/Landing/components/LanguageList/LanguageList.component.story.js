@@ -3,27 +3,25 @@ import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { storiesOf } from '@storybook/react-native';
 
-import Component from './Header.component';
+import Component from './LanguageList.component';
 import ScreenView from '../../../../components/ScreenView/ScreenView.component';
 
-storiesOf('Modules/Landing - Header', module)
-  .add('Country: Viet Nam - Language: Vietnamese', () => (
+storiesOf('Modules/Landing - Language List', module)
+  .add('selected language: "Vietnamese" and country: "Viet Nam"', () => (
     <ScreenView>
       <Component
+        onSelectLanguage={() => console.log('select language')}
         countryCode="VN"
-        countryName="Viet Nam"
         languageCode="vi"
-        languageName="Tiếng Việt"
       />
     </ScreenView>
   ))
-  .add('Country: Singapore - Language: English', () => (
+  .add('selected language: "English" and country: "Singapore"', () => (
     <ScreenView>
       <Component
+        onSelectLanguage={() => console.log('select language')}
         countryCode="SG"
-        countryName="Singapore"
         languageCode="en"
-        languageName="English"
       />
     </ScreenView>
   ));
