@@ -27,6 +27,13 @@ class LanguageItem extends Component {
     });
   };
 
+  renderFlagIcon = countryCode => (
+    <Image
+      style={styles.flagIcon}
+      source={getFlagIconByCountryCode(countryCode)}
+    />
+  );
+
   renderText = value => {
     const { selected } = this.props;
     return <Text style={[styles.text, getTextStyle(selected)]}>{value}</Text>;
@@ -53,7 +60,6 @@ class LanguageItem extends Component {
       languageName,
       containerStyle,
     } = this.props;
-
     return (
       <TouchableWithoutFeedback onPress={this.onPressItem}>
         <View
@@ -64,10 +70,7 @@ class LanguageItem extends Component {
           ]}
         >
           {/* flag icon */}
-          <Image
-            style={styles.flagIcon}
-            source={getFlagIconByCountryCode(countryCode)}
-          />
+          {this.renderFlagIcon(countryCode)}
 
           {/* Country */}
           {this.renderText(`${countryName} (${languageName})`)}
