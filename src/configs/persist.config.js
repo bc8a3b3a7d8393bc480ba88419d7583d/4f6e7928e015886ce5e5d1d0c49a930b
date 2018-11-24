@@ -9,6 +9,7 @@ const persistConfig = {
   key,
   storage,
   whitelist: ['language'],
+  blacklist: ['navigation'],
 };
 
 export { PERSIST_KEY };

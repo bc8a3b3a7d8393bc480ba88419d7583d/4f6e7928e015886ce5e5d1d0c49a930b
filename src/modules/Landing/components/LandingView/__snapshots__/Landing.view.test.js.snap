@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Landing - Landing View snapshots basic render 1`] = `
+<Component
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <ScrollView
+    contentContainerStyle={
+      Object {
+        "padding": 10,
+      }
+    }
+    style={
+      Object {
+        "backgroundColor": "#2B9FDC",
+      }
+    }
+  >
+    <Header
+      countryCode="VN"
+      countryName="Việt Nam"
+      languageCode="vi"
+      languageName="Tiếng Việt"
+    />
+    <LanguageList
+      onSelectLanguage={[MockFunction]}
+    />
+  </ScrollView>
+  <Footer />
+</Component>
+`;

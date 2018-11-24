@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Landing - Language Item snapshots should render component when the user has not selected yet 1`] = `
+<TouchableWithoutFeedback
+  onPress={[Function]}
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderRadius": 5,
+          "flexDirection": "row",
+          "padding": 10,
+        },
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.2)",
+        },
+        Object {},
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/flags/VN.png",
+        }
+      }
+      style={
+        Object {
+          "height": 20,
+          "marginRight": 10,
+          "width": 25,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "flex": 1,
+            "fontFamily": "Oswald-Regular",
+            "fontSize": 12,
+          },
+          Object {
+            "color": "white",
+          },
+        ]
+      }
+    >
+      Việt Nam (Tiếng Việt)
+    </Text>
+    <Component />
+  </Component>
+</TouchableWithoutFeedback>
+`;
+
+exports[`Modules/Landing - Language Item snapshots should render component when the user has selected language 1`] = `
+<TouchableWithoutFeedback
+  onPress={[Function]}
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderRadius": 5,
+          "flexDirection": "row",
+          "padding": 10,
+        },
+        Object {
+          "backgroundColor": "white",
+        },
+        Object {},
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/flags/VN.png",
+        }
+      }
+      style={
+        Object {
+          "height": 20,
+          "marginRight": 10,
+          "width": 25,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "flex": 1,
+            "fontFamily": "Oswald-Regular",
+            "fontSize": 12,
+          },
+          Object {
+            "color": "black",
+          },
+        ]
+      }
+    >
+      Việt Nam (Tiếng Việt)
+    </Text>
+    <Component
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#2B9FDC",
+          "borderRadius": 10,
+          "height": 20,
+          "justifyContent": "center",
+          "width": 20,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="white"
+        name="check"
+        size={12}
+      />
+    </Component>
+  </Component>
+</TouchableWithoutFeedback>
+`;
