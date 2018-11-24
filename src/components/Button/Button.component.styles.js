@@ -1,9 +1,9 @@
 import { StyleSheet } from 'react-native';
-import { COLORS, TEXT_STYLES } from '../../themes';
+import { COLORS, TEXT_STYLES, METRICS } from '../../themes';
 
 const styles = StyleSheet.create({
   container: {
-    height: 40,
+    height: METRICS.button.defaultHeight,
     backgroundColor: COLORS.white,
     alignItems: 'center',
     justifyContent: 'center',
