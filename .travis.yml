@@ -27,4 +27,4 @@ jobs:
       - yarn test:coverage
     after_script:
       - bash <(curl -s https://codecov.io/bash)
-      - codeclimate-test-reporter < coverage/lcov/lcov.info
+      - CODECLIMATE_API_HOST=CODECLIMATE_API_HOST CODECLIMATE_REPO_TOKEN=CODECLIMATE_REPO_TOKEN codeclimate-test-reporter < coverage/lcov/lcov.info

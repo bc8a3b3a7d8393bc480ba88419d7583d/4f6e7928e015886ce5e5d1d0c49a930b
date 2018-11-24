@@ -60,22 +60,16 @@ class LanguageItem extends Component {
       languageName,
       containerStyle,
     } = this.props;
+    const wrapperStyle = [
+      styles.container,
+      getBackgroundStyle(selected),
+      containerStyle,
+    ];
     return (
       <TouchableWithoutFeedback onPress={this.onPressItem}>
-        <View
-          style={[
-            styles.container,
-            getBackgroundStyle(selected),
-            containerStyle,
-          ]}
-        >
-          {/* flag icon */}
+        <View style={wrapperStyle}>
           {this.renderFlagIcon(countryCode)}
-
-          {/* Country */}
           {this.renderText(`${countryName} (${languageName})`)}
-
-          {/* check icon */}
           {this.renderCheckIcon()}
         </View>
       </TouchableWithoutFeedback>
