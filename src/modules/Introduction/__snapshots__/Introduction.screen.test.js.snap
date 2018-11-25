@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Landing - Introduction screen snapshots basic render 1`] = `<IntroductionView />`;

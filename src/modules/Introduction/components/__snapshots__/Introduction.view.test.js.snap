@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Landing - Introduction view snapshots basic render 1`] = `
+<ScreenView
+  style={
+    Object {
+      "backgroundColor": "#2B9FDC",
+      "flex": 1,
+    }
+  }
+>
+  <Swiper
+    activeDotColor="white"
+    dotColor="#8f8f8f"
+    loop={false}
+  >
+    <IntroductionPage
+      data={
+        Object {
+          "id": 1,
+          "image": "page1",
+          "text": "onboarding.swiper.page1.text",
+          "title": "onboarding.swiper.page1.title",
+        }
+      }
+      key="1"
+      onPress={[Function]}
+    />
+    <IntroductionPage
+      data={
+        Object {
+          "id": 2,
+          "image": "page2",
+          "text": "onboarding.swiper.page2.text",
+          "title": "onboarding.swiper.page2.title",
+        }
+      }
+      key="2"
+      onPress={[Function]}
+    />
+    <IntroductionPage
+      data={
+        Object {
+          "id": 3,
+          "image": "page3",
+          "text": "onboarding.swiper.page3.text",
+          "title": "onboarding.swiper.page3.title",
+        }
+      }
+      key="3"
+      onPress={[Function]}
+    />
+    <IntroductionPage
+      data={
+        Object {
+          "id": 4,
+          "image": "page4",
+          "text": "onboarding.swiper.page4.text",
+          "title": "onboarding.swiper.page4.title",
+        }
+      }
+      key="4"
+      onPress={[Function]}
+    />
+    <IntroductionPage
+      data={
+        Object {
+          "button": Object {
+            "handler": "onPressTurnOnNotification",
+            "style": Object {
+              "backgroundColor": "white",
+              "borderRadius": 5,
+              "flex": 0,
+              "minWidth": 100,
+            },
+            "title": "onboarding.swiper.page5.button.title",
+          },
+          "id": 5,
+          "image": "page5",
+          "text": "onboarding.swiper.page5.text",
+          "title": "onboarding.swiper.page5.title",
+        }
+      }
+      key="5"
+      onPress={[Function]}
+    />
+    <IntroductionPage
+      data={
+        Object {
+          "button": Object {
+            "handler": "onPressImIn",
+            "style": Object {
+              "backgroundColor": "white",
+              "borderRadius": 5,
+              "flex": 0,
+              "minWidth": 100,
+            },
+            "title": "onboarding.swiper.page6.button.title",
+          },
+          "id": 6,
+          "image": "page6",
+          "text": "onboarding.swiper.page6.text",
+          "title": "onboarding.swiper.page6.title",
+        }
+      }
+      key="6"
+      onPress={[Function]}
+    />
+  </Swiper>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "white",
+      }
+    }
+  >
+    <Button
+      containerStyle={
+        Object {
+          "height": 40,
+        }
+      }
+      onPress={[Function]}
+      title="onboarding.button.skip"
+      titleStyle={Object {}}
+    />
+  </Component>
+</ScreenView>
+`;

@@ -6,5 +6,5 @@ import { storiesOf } from '@storybook/react-native';
 import Component from './Button.component';
 
 storiesOf('Component - Button', module).add('default', () => (
-  <Component title="Button" />
+  <Component title="Button" onPress={() => console.log('pressed button')} />
 ));

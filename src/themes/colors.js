@@ -4,5 +4,7 @@ export default {
 
   white: 'white',
   whiteOpacity2: 'rgba(255, 255, 255, 0.2)',
+
   black: 'black',
+  black300: '#8f8f8f',
 };
