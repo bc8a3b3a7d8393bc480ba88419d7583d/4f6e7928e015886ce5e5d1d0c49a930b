@@ -47,6 +47,7 @@
     "babel-eslint": "^10.0.1",
     "babel-jest": "23.6.0",
     "babel-runtime": "^6.26.0",
+    "detox": "^9.1.2",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
     "enzyme-to-json": "^3.3.4",
@@ -109,5 +110,15 @@
       "./src/assets/fonts/",
       "./src/assets/fontello/"
     ]
+  },
+  "detox": {
+    "configurations": {
+      "ios.sim.debug": {
+        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/DulyMobileApp.app",
+        "build": "xcodebuild -project ios/DulyMobileApp.xcodeproj -scheme example -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone 6"
+      }
+    }
   }
 }
