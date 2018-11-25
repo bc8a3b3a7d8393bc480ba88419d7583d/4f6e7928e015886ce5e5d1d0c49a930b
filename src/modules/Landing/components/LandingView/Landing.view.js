@@ -29,7 +29,7 @@ class LandingView extends Component {
     navigate(Routes.Authentication.Introduction);
   };
 
-  render() {
+  renderHeader = () => {
     const {
       selectedLanguage: {
         languageName,
@@ -39,19 +39,34 @@ class LandingView extends Component {
       },
     } = this.props;
     return (
+      <Header
+        languageName={languageName}
+        languageCode={languageCode}
+        countryCode={countryCode}
+        countryName={countryName}
+      />
+    );
+  };
+
+  renderLanguageList = () => {
+    const {
+      selectedLanguage: { languageCode, countryCode },
+    } = this.props;
+    return (
+      <LanguageList
+        onSelectLanguage={this.onSelectLanguage}
+        languageCode={languageCode}
+        countryCode={countryCode}
+      />
+    );
+  };
+
+  render() {
+    return (
       <ScreenView style={styles.container}>
         <ScrollView contentContainerStyle={styles.scrollContent}>
-          <Header
-            languageName={languageName}
-            languageCode={languageCode}
-            countryCode={countryCode}
-            countryName={countryName}
-          />
-          <LanguageList
-            onSelectLanguage={this.onSelectLanguage}
-            languageCode={languageCode}
-            countryCode={countryCode}
-          />
+          {this.renderHeader()}
+          {this.renderLanguageList()}
         </ScrollView>
         <Footer onPress={this.onNavigateToIntroductionScreen} />
       </ScreenView>
