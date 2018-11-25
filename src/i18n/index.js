@@ -10,9 +10,9 @@ import '../moment';
 
 export * from './i18n.util';
 
-I18n.defaultLocale = 'vi';
-I18n.locale = 'vi';
-moment.locale('vi');
+I18n.defaultLocale = 'en';
+I18n.locale = 'en';
+moment.locale('en');
 I18n.fallbacks = true;
 I18n.translations = {
   en,

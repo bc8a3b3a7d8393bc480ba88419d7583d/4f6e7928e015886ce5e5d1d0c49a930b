@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Landing - Header snapshots basic render 1`] = `
+<Component
+  style={Object {}}
+>
+  <Image
+    resizeMode="contain"
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/app/logo-white.png",
+      }
+    }
+    style={
+      Object {
+        "alignSelf": "center",
+        "height": 66,
+        "marginTop": 50,
+        "width": 80,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "white",
+        "fontFamily": "Oswald-Regular",
+        "fontSize": 20,
+        "marginVertical": 30,
+        "textAlign": "center",
+      }
+    }
+  >
+    landing.header.welcome
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "white",
+        "fontFamily": "Oswald-Regular",
+        "fontSize": 12,
+        "textAlign": "center",
+      }
+    }
+  >
+    landing.header.detectedLanguage
+  </Text>
+  <LanguageItem
+    containerStyle={
+      Object {
+        "marginVertical": 15,
+      }
+    }
+    countryCode="VN"
+    countryName="Viet Nam"
+    languageCode="en"
+    languageName="English"
+    onPress={[Function]}
+    selected={true}
+  />
+</Component>
+`;

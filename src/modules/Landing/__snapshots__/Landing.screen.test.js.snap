@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Landing - Landing Screen - UI component snapshots basic render 1`] = `
+<LandingView
+  onSelectLanguage={[Function]}
+  selectedLanguage={
+    Object {
+      "countryCode": "VN",
+      "countryName": "Việt Nam",
+      "languageCode": "vi",
+      "languageName": "Tiếng Việt",
+    }
+  }
+/>
+`;

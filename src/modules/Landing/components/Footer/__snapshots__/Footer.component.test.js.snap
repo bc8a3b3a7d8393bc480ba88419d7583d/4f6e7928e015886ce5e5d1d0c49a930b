@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Landing - Footer snapshots basic render 1`] = `
+<Component
+  style={
+    Object {
+      "backgroundColor": "white",
+      "height": 40,
+    }
+  }
+>
+  <Button
+    containerStyle={Object {}}
+    title="landing.footer.continueButton"
+    titleStyle={Object {}}
+  />
+</Component>
+`;

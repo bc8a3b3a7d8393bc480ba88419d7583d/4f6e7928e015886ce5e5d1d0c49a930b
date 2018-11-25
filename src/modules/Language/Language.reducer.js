@@ -1,13 +1,16 @@
 import typeToReducer from 'type-to-reducer';
+import { createActions } from 'redux-actions';
 
-import I18n from '../../i18n';
+import { getLanguage } from '../Landing/components/LanguageList/Language.data';
 
-import actions from './Language.actions';
+const actions = createActions('SET_LANGUAGE');
 
-const initialState = I18n.currentLocale();
+const initialState = getLanguage('VN', 'en');
 const reducer = typeToReducer(
   {
-    [actions.setLanguage]: (state, action) => action.payload,
+    [actions.setLanguage]: (state, action) => {
+      return action.payload;
+    },
   },
   initialState,
 );

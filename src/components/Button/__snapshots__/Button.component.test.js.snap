@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component - Button snapshots basic render 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "height": 40,
+          "justifyContent": "center",
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#0d7fcc",
+            "fontFamily": "Oswald-Regular",
+            "fontSize": 12,
+          },
+          Object {},
+        ]
+      }
+    >
+      Button
+    </Text>
+  </Component>
+</TouchableOpacity>
+`;

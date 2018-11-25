@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Landing - Language List snapshots basic render 1`] = `
+<Component>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "white",
+        "fontFamily": "Oswald-Regular",
+        "fontSize": 12,
+        "textAlign": "center",
+      }
+    }
+  >
+    landing.content.selectLanguage
+  </Text>
+  <LanguageItem
+    containerStyle={
+      Object {
+        "marginTop": 5,
+      }
+    }
+    countryCode="VN"
+    countryName="Viet Nam"
+    key="VN-en"
+    languageCode="en"
+    languageName="English"
+    onPress={[MockFunction]}
+    selected={false}
+  />
+  <LanguageItem
+    containerStyle={
+      Object {
+        "marginTop": 5,
+      }
+    }
+    countryCode="ID"
+    countryName="Indonesia"
+    key="ID-en"
+    languageCode="en"
+    languageName="English"
+    onPress={[MockFunction]}
+    selected={false}
+  />
+  <LanguageItem
+    containerStyle={
+      Object {
+        "marginTop": 5,
+      }
+    }
+    countryCode="ID"
+    countryName="Indonesia"
+    key="ID-id"
+    languageCode="id"
+    languageName="Indonesia"
+    onPress={[MockFunction]}
+    selected={false}
+  />
+  <LanguageItem
+    containerStyle={
+      Object {
+        "marginTop": 5,
+      }
+    }
+    countryCode="MY"
+    countryName="Malaysia"
+    key="MY-ms"
+    languageCode="ms"
+    languageName="Bahasa Melayu"
+    onPress={[MockFunction]}
+    selected={false}
+  />
+  <LanguageItem
+    containerStyle={
+      Object {
+        "marginTop": 5,
+      }
+    }
+    countryCode="MY"
+    countryName="Malaysia"
+    key="MY-en"
+    languageCode="en"
+    languageName="English"
+    onPress={[MockFunction]}
+    selected={false}
+  />
+  <LanguageItem
+    containerStyle={
+      Object {
+        "marginTop": 5,
+      }
+    }
+    countryCode="PH"
+    countryName="Philipines"
+    key="PH-en"
+    languageCode="en"
+    languageName="English"
+    onPress={[MockFunction]}
+    selected={false}
+  />
+  <LanguageItem
+    containerStyle={
+      Object {
+        "marginTop": 5,
+      }
+    }
+    countryCode="SG"
+    countryName="Singapore"
+    key="SG-en"
+    languageCode="en"
+    languageName="English"
+    onPress={[MockFunction]}
+    selected={false}
+  />
+  <LanguageItem
+    containerStyle={
+      Object {
+        "marginTop": 5,
+      }
+    }
+    countryCode="TH"
+    countryName="Thailand"
+    key="TH-en"
+    languageCode="en"
+    languageName="English"
+    onPress={[MockFunction]}
+    selected={false}
+  />
+  <LanguageItem
+    containerStyle={
+      Object {
+        "marginTop": 5,
+      }
+    }
+    countryCode="TH"
+    countryName="Thailand"
+    key="TH-th"
+    languageCode="th"
+    languageName="ไทย"
+    onPress={[MockFunction]}
+    selected={false}
+  />
+</Component>
+`;
