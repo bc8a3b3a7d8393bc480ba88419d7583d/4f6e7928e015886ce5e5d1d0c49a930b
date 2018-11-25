@@ -4,6 +4,7 @@ const Routes = keyMirror({
   RootNavigator: null,
   Authentication: {
     Landing: null,
+    Introduction: null,
     Login: null,
     Home: null,
   },

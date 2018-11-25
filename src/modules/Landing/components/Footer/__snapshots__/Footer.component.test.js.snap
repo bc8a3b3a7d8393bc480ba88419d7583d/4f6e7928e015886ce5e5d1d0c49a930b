@@ -11,6 +11,7 @@ exports[`Modules/Landing - Footer snapshots basic render 1`] = `
 >
   <Button
     containerStyle={Object {}}
+    onPress={[MockFunction]}
     title="landing.footer.continueButton"
     titleStyle={Object {}}
   />

@@ -6,7 +6,9 @@ describe('Modules/Landing - Footer', () => {
   testSnapshots(Component, [
     {
       description: 'basic render',
-      props: {},
+      props: {
+        onPress: jest.fn(),
+      },
     },
   ]);
 });

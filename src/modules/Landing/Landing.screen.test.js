@@ -4,7 +4,6 @@ import configureStore from 'redux-mock-store';
 
 import { testSnapshots } from '../../utils/test.util';
 import Container, { LandingScreen as Component } from './Landing.screen';
-import { LandingView } from './components';
 
 const mockStore = configureStore();
 const componentProps = {
@@ -18,26 +17,12 @@ const componentProps = {
 };
 
 describe('Modules/Landing - Landing Screen - UI component', () => {
-  const render = props => shallow(<Component {...props} />);
-
   testSnapshots(Component, [
     {
       description: 'basic render',
       props: componentProps,
     },
   ]);
-
-  test('should call setLanguage prop which is passed from reducer action ', () => {
-    const component = render(componentProps);
-    component
-      .find(LandingView)
-      .at(0)
-      .props()
-      .onSelectLanguage(componentProps.selectedLanguage);
-    expect(componentProps.setLanguage).toBeCalledWith(
-      componentProps.selectedLanguage,
-    );
-  });
 });
 
 describe('Modules/Landing - Landing Screen - Redux Container', () => {

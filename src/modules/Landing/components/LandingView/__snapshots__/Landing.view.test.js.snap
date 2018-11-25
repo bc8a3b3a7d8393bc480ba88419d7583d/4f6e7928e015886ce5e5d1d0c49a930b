@@ -25,9 +25,11 @@ exports[`Modules/Landing - Landing View snapshots basic render 1`] = `
     <LanguageList
       countryCode="VN"
       languageCode="vi"
-      onSelectLanguage={[MockFunction]}
+      onSelectLanguage={[Function]}
     />
   </ScrollView>
-  <Footer />
+  <Footer
+    onPress={[Function]}
+  />
 </ScreenView>
 `;

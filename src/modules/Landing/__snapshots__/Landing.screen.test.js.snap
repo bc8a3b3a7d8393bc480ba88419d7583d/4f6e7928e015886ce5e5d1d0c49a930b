@@ -2,7 +2,6 @@
 
 exports[`Modules/Landing - Landing Screen - UI component snapshots basic render 1`] = `
 <LandingView
-  onSelectLanguage={[Function]}
   selectedLanguage={
     Object {
       "countryCode": "VN",
@@ -11,5 +10,6 @@ exports[`Modules/Landing - Landing Screen - UI component snapshots basic render 
       "languageName": "Tiếng Việt",
     }
   }
+  setLanguage={[MockFunction]}
 />
 `;

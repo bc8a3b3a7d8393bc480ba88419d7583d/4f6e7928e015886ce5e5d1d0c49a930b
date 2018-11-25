@@ -6,5 +6,5 @@ import { storiesOf } from '@storybook/react-native';
 import Component from './Footer.component';
 
 storiesOf('Modules/Landing - Footer', module).add('default', () => (
-  <Component />
+  <Component onPress={() => console.log('pressed continue button')} />
 ));

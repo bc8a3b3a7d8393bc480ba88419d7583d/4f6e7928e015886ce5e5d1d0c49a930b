@@ -8,6 +8,7 @@ describe('Component - Button', () => {
       description: 'basic render',
       props: {
         title: 'Button',
+        onPress: jest.fn(),
       },
     },
   ]);

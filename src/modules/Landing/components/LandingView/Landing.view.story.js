@@ -9,7 +9,7 @@ import ScreenView from '../../../../components/ScreenView/ScreenView.component';
 storiesOf('Modules/Landing - Landing View', module).add('default', () => (
   <ScreenView>
     <Component
-      onSelectLanguage={() => 'Selected language'}
+      setLanguage={() => 'Selected language'}
       selectedLanguage={{
         languageCode: 'vi',
         languageName: 'Tiếng Việt',
