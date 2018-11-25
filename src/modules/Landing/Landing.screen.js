@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import { connect } from 'react-redux';
@@ -8,31 +8,7 @@ import { actions as LanguageActions } from '../Language/Language.reducer';
 
 import { LandingView } from './components';
 
-export class LandingScreen extends Component {
-  /*
-    Parameters:
-      languageObj = {
-        countryCode,
-        countryName,
-        languageCode,
-        languageName,
-      }
-   */
-  onSelectLanguage = languageObj => {
-    const { setLanguage } = this.props;
-    setLanguage(languageObj);
-  };
-
-  render() {
-    const { selectedLanguage } = this.props;
-    return (
-      <LandingView
-        selectedLanguage={selectedLanguage}
-        onSelectLanguage={this.onSelectLanguage}
-      />
-    );
-  }
-}
+export const LandingScreen = props => <LandingView {...props} />;
 
 LandingScreen.propTypes = {
   setLanguage: PropTypes.func.isRequired,

@@ -11,7 +11,7 @@ const AppNavigator = createSwitchNavigator(
     [AuthenticationRoutes.Introduction]: Screens.Introduction,
   },
   {
-    initialRouteName: AuthenticationRoutes.Introduction,
+    initialRouteName: AuthenticationRoutes.Landing,
   },
 );
 

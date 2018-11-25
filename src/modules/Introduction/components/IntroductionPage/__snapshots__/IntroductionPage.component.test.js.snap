@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Modules/Landing - IntroductionPage snapshots basic render 1`] = `
+exports[`Modules/Introduction - IntroductionPage snapshots basic render 1`] = `
 <Component
   style={
     Object {
@@ -58,5 +58,11 @@ exports[`Modules/Landing - IntroductionPage snapshots basic render 1`] = `
   >
     text
   </Text>
+  <Button
+    containerStyle={Object {}}
+    onPress={[Function]}
+    title="button title"
+    titleStyle={Object {}}
+  />
 </Component>
 `;
