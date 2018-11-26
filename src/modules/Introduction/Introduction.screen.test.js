@@ -1,4 +1,4 @@
-import { testSnapshots } from '../../utils/test.util';
+import { testSnapshots } from '../../utils/test.utils';
 
 import { IntroductionScreen as Component } from './Introduction.screen';
 

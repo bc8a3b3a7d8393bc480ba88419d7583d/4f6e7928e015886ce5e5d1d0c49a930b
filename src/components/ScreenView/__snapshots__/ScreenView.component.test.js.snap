@@ -11,6 +11,7 @@ exports[`Component - Button snapshots basic render 1`] = `
       Object {},
     ]
   }
+  testID=""
 >
   <Component
     style={

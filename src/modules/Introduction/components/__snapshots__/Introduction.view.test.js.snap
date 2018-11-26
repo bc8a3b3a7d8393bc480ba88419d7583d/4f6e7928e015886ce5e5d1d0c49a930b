@@ -8,6 +8,7 @@ exports[`Modules/Introduction - Introduction view should render page item withou
       "flex": 1,
     }
   }
+  testID=""
 >
   <Swiper
     activeDotColor="white"
@@ -136,6 +137,7 @@ exports[`Modules/Introduction - Introduction view snapshots basic render 1`] = `
       "flex": 1,
     }
   }
+  testID=""
 >
   <Swiper
     activeDotColor="white"

@@ -2,7 +2,7 @@ import { AppRegistry } from 'react-native';
 
 import App from './modules/App/App';
 import { name as appName } from '../app.json';
-import { isDEV } from './utils/platform.util';
+import { isDEV } from './utils/platform.utils';
 
 if (isDEV()) {
   // eslint-disable-next-line global-require

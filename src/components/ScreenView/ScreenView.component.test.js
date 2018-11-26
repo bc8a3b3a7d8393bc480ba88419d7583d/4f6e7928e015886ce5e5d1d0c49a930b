@@ -1,4 +1,4 @@
-import { testSnapshots } from '../../utils/test.util';
+import { testSnapshots } from '../../utils/test.utils';
 
 import Component from './ScreenView.component';
 

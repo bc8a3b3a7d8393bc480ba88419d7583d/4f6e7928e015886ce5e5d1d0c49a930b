@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import R from 'ramda';
 import PushNotification from 'react-native-push-notification';
 
-import { testSnapshots } from '../../../utils/test.util';
+import { testSnapshots } from '../../../utils/test.utils';
 
 import Component from './Introduction.view';
 import IntroductionPagesData from './Introduction.view.data';

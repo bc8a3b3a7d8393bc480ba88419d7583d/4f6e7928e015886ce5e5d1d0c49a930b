@@ -1,7 +1,7 @@
 import { Platform } from 'react-native';
 import DeviceInfo from 'react-native-device-info';
 
-import { isDEV, isIOS, isAndroid, isIPhoneX } from './platform.util';
+import { isDEV, isIOS, isAndroid, isIPhoneX } from './platform.utils';
 
 describe('Utils/Platform - isDEV', () => {
   let initialENV;
