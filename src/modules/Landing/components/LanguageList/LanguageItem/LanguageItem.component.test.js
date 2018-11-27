@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { testSnapshots } from '../../../../../utils/test.util';
+import { testSnapshots } from '../../../../../utils/test.utils';
 
 import Component from './LanguageItem.component';
 

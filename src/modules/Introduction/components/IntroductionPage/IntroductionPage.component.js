@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, Image } from 'react-native';
+import { Text, ViewPropTypes, View, Image } from 'react-native';
 import PropTypes from 'prop-types';
 import R from 'ramda';
 
@@ -41,7 +41,7 @@ IntroductionPage.propTypes = {
     image: PropTypes.string.isRequired,
     button: PropTypes.shape({
       title: PropTypes.string.isRequired,
-      style: View.propTypes.style,
+      style: ViewPropTypes.style,
     }),
   }).isRequired,
   onPress: PropTypes.func,

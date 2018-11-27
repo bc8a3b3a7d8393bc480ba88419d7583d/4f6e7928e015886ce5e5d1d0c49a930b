@@ -1,4 +1,4 @@
-import { testSnapshots } from '../../utils/test.util';
+import { testSnapshots } from '../../utils/test.utils';
 
 import Icon from './Icon.component';
 

@@ -2,6 +2,7 @@ stages:
   - test
 
 sudo: false
+
 os: linux
 
 language: node_js
@@ -17,14 +18,18 @@ before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash
   - export PATH="$HOME/.yarn/bin:$PATH"
 
-install: yarn install
+install:
+  - yarn
+  - yarn prestorybook
 
 jobs:
   include:
   - stage: test
+    name: "Lint"
     script:
-      - npm install -g codeclimate-test-reporter
+    - yarn lint
+
+  - stage: test
+    name: "Unit test"
+    script:
       - yarn test:coverage
-    after_script:
-      - bash <(curl -s https://codecov.io/bash)
-      - CODECLIMATE_API_HOST=CODECLIMATE_API_HOST CODECLIMATE_REPO_TOKEN=CODECLIMATE_REPO_TOKEN codeclimate-test-reporter < coverage/lcov/lcov.info

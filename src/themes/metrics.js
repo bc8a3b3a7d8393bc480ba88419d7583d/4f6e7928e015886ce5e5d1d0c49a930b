@@ -1,4 +1,4 @@
-import { isIPhoneX } from '../utils/platform.util';
+import { isIPhoneX } from '../utils/platform.utils';
 
 const metrics = {
   spacing: {

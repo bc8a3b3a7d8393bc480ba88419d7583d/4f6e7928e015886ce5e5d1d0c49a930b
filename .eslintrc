@@ -1,23 +1,14 @@
 {
   "parser": "babel-eslint",
-  "extends": [
-    "airbnb",
-    "prettier"
-  ],
-  "plugins": [
-    "react",
-    "jsx-a11y"
-  ],
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["react", "jsx-a11y"],
   "rules": {
     "react/prop-types": 0,
     "react/no-multi-comp": 0,
     "react/jsx-filename-extension": [
       0,
       {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
+        "extensions": [".js", ".jsx"]
       }
     ],
     "react/prefer-stateless-function": [
@@ -33,7 +24,9 @@
           "storybook/*",
           "**/*.stories.js",
           "**/*.test.js",
-          "**/*.spec.js"
+          "**/*.spec.js",
+          "**/*.helper.js",
+          "**/*.steps.js"
         ]
       }
     ]

@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import configureStore from 'redux-mock-store';
 
-import { testSnapshots } from '../../utils/test.util';
+import { testSnapshots } from '../../utils/test.utils';
 import Container, { LandingScreen as Component } from './Landing.screen';
 
 const mockStore = configureStore();

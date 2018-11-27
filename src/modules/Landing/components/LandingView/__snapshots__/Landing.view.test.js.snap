@@ -8,6 +8,7 @@ exports[`Modules/Landing - Landing View snapshots basic render 1`] = `
       "flex": 1,
     }
   }
+  testID="landing-screen-view"
 >
   <ScrollView
     contentContainerStyle={

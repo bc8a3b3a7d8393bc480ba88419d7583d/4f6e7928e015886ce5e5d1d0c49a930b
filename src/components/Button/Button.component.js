@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View, TouchableOpacity, Text } from 'react-native';
+import { View, ViewPropTypes, TouchableOpacity, Text } from 'react-native';
 
 import styles from './Button.component.styles';
 
@@ -14,7 +14,7 @@ const Button = ({ title, containerStyle, titleStyle, onPress }) => (
 
 Button.propTypes = {
   title: PropTypes.string.isRequired,
-  containerStyle: View.propTypes.style,
+  containerStyle: ViewPropTypes.style,
   titleStyle: Text.propTypes.style,
   onPress: PropTypes.func.isRequired,
 };

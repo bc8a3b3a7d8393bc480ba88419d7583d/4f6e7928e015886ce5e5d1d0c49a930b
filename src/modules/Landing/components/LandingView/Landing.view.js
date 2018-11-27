@@ -6,6 +6,7 @@ import styles from './Landing.view.styles';
 import { Header, LanguageList, Footer } from '../index';
 import ScreenView from '../../../../components/ScreenView/ScreenView.component';
 import { Routes } from '../../../Navigation/Navigation.constant';
+import Constants from '../../../../constants';
 
 class LandingView extends Component {
   /*
@@ -63,7 +64,10 @@ class LandingView extends Component {
 
   render() {
     return (
-      <ScreenView style={styles.container}>
+      <ScreenView
+        style={styles.container}
+        testID={Constants.TEST_IDS['landing-screen-view']}
+      >
         <ScrollView contentContainerStyle={styles.scrollContent}>
           {this.renderHeader()}
           {this.renderLanguageList()}
