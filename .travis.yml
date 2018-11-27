@@ -5,22 +5,19 @@ sudo: false
 
 os: linux
 
+language: node_js
+node_js:
+  - "10.13.0"
+
+
 cache:
   yarn: true
   directories:
   - node_modules
 
-env:
-  global:
-  - NODE_VERSION=stable
-
 before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash
   - export PATH="$HOME/.yarn/bin:$PATH"
-  - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-  - export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-  - nvm install $NODE_VERSION
-  - nvm use $NODE_VERSION
 
 install:
   - yarn install
@@ -35,8 +32,4 @@ jobs:
   - stage: test
     name: "Unit test"
     script:
-      - npm install -g codeclimate-test-reporter
       - yarn test:coverage
-    after_script:
-      - bash <(curl -s https://codecov.io/bash)
-      - CODECLIMATE_API_HOST=CODECLIMATE_API_HOST CODECLIMATE_REPO_TOKEN=CODECLIMATE_REPO_TOKEN codeclimate-test-reporter < coverage/lcov/lcov.inf
