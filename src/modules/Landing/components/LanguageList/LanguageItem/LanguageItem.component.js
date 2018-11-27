@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
-import { View, TouchableWithoutFeedback, Image, Text } from 'react-native';
+import {
+  View,
+  ViewPropTypes,
+  TouchableWithoutFeedback,
+  Image,
+  Text,
+} from 'react-native';
 import PropTypes from 'prop-types';
 
 import { getFlagIconByCountryCode } from './LanguageItem.assets';
@@ -78,7 +84,7 @@ class LanguageItem extends Component {
 }
 
 LanguageItem.propTypes = {
-  containerStyle: View.propTypes.style,
+  containerStyle: ViewPropTypes.style,
   selected: PropTypes.bool,
   languageCode: PropTypes.string.isRequired,
   languageName: PropTypes.string.isRequired,
