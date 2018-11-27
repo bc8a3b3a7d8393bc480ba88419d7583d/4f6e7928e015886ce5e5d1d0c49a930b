@@ -3,8 +3,7 @@ stages:
 
 sudo: false
 
-os: osx
-osx_image: xcode9.4
+os: linux
 
 cache:
   yarn: true
@@ -25,14 +24,14 @@ before_install:
 
 install:
   - yarn install
-  - yarn global add react-native-cli
-  - yarn global add detox-cli
-  - brew tap wix/brew
-  - brew install applesimutils
-  - yarn prestorybook
 
 jobs:
   include:
+  - stage: test
+    name: "Lint"
+    script:
+    - yarn prestorybook
+    - yarn lint
   - stage: test
     name: "Unit test"
     script:
@@ -41,8 +40,3 @@ jobs:
     after_script:
       - bash <(curl -s https://codecov.io/bash)
       - CODECLIMATE_API_HOST=CODECLIMATE_API_HOST CODECLIMATE_REPO_TOKEN=CODECLIMATE_REPO_TOKEN codeclimate-test-reporter < coverage/lcov/lcov.inf
-  - stage: test
-    name: "E2E test"
-    script:
-      - detox build --configuration ios.sim.release
-      - yarn cucumber --configuration ios.sim.release
