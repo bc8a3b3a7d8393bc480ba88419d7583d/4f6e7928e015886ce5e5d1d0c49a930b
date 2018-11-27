@@ -14,7 +14,7 @@ setDefaultTimeout(TIME_OUT);
 
 BeforeAll({ timeout: TIME_OUT }, async () => {
   await detox.init(config);
-  // await device.launchApp();
+  await device.launchApp();
 });
 
 After({ timeout: TIME_OUT }, async testInfo => {
