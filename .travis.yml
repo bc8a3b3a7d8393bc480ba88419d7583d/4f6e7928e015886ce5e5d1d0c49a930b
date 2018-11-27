@@ -28,7 +28,6 @@ before_install:
   - export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
   - nvm install $NODE_VERSION
   - nvm use $NODE_VERSION
-  - yarn prestorybook
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; yarn global add react-native-cli    ; fi
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; yarn global add detox-cli           ; fi
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; brew tap wix/brew                   ; fi
@@ -49,5 +48,6 @@ jobs:
   - stage: test
     name: "E2E test"
     script:
+      - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; yarn prestorybook                              ; fi
       - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; detox build --configuration ios.sim.release    ; fi
-      - if [[ "$TRAVIS_OS_NAME" == "osx" ]];yarn cucumber --configuration ios.sim.release   ; fi
+      - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; yarn cucumber --configuration ios.sim.release  ; fi
