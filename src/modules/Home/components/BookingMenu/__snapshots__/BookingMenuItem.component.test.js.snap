@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Home - BookingMenuItem snapshots basic render 1`] = `
+<TouchableWithoutFeedback
+  onPress={[MockFunction]}
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "elevation": 4,
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 3,
+        "marginBottom": 10,
+        "maxHeight": 70,
+        "minWidth": 90,
+        "padding": 10,
+        "shadowColor": "#8f8f8f",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 1,
+        },
+        "shadowOpacity": 0.3,
+      }
+    }
+  >
+    <Image
+      resizeMode="cover"
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/home/flight.png",
+        }
+      }
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 17.5,
+          "height": 35,
+          "marginBottom": 5,
+          "width": 35,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontFamily": "Oswald-Regular",
+          "fontSize": 12,
+        }
+      }
+    >
+      Flights
+    </Text>
+  </Component>
+</TouchableWithoutFeedback>
+`;

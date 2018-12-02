@@ -28,7 +28,7 @@ class BottomTabBar extends PureComponent {
 
   renderTabBarItem = item => {
     const { selectedTab } = this.state;
-    const { route, title } = item;
+    const { route, title, icon } = item;
     const selected = route === selectedTab;
     return (
       <TabButton
@@ -36,6 +36,7 @@ class BottomTabBar extends PureComponent {
         route={route}
         selected={selected}
         title={title}
+        icon={icon}
         onPress={this.onSwitchTab}
       />
     );

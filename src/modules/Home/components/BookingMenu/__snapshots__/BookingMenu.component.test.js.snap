@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Home - BookingMenu snapshots basic render 1`] = `
+<Component
+  style={
+    Object {
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "marginTop": -45,
+      "padding": 10,
+    }
+  }
+>
+  <BookingMenuItem
+    image="flight"
+    key="home.bookingMenu.flights"
+    onPress={[MockFunction]}
+    title="home.bookingMenu.flights"
+  />
+  <BookingMenuItem
+    image="hotel"
+    key="home.bookingMenu.hotels"
+    onPress={[MockFunction]}
+    title="home.bookingMenu.hotels"
+  />
+  <BookingMenuItem
+    image="flight"
+    key="home.bookingMenu.airportTransport"
+    onPress={[MockFunction]}
+    title="home.bookingMenu.airportTransport"
+  />
+  <BookingMenuItem
+    image="flight"
+    key="home.bookingMenu.priceAlerts"
+    onPress={[MockFunction]}
+    title="home.bookingMenu.priceAlerts"
+  />
+  <BookingMenuItem
+    image="flight"
+    key="home.bookingMenu.myPoints"
+    onPress={[MockFunction]}
+    title="home.bookingMenu.myPoints"
+  />
+</Component>
+`;

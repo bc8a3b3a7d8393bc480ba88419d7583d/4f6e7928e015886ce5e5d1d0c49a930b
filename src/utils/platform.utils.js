@@ -8,4 +8,4 @@ const isAndroid = () => equals(Platform.OS, 'android');
 const iPhoneX = 'iPhone X';
 const isIPhoneX = () => isIOS() && equals(DeviceInfo.getModel(), iPhoneX);
 
-export { isDEV, isIOS, isAndroid, isIPhoneX };
+export { isDEV, isIOS, isAndroid, isIPhoneX, iPhoneX };

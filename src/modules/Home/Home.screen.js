@@ -16,7 +16,7 @@ class HomeScreen extends Component {
     headerLeft: null,
     headerRight: (
       <HeaderButton onPress={navigation.goBack} isRightButton>
-        <Icon name="dots-three-horizontal" color={COLORS.white} />
+        <Icon name="dots-three-horizontal" color={COLORS.white} size={18} />
       </HeaderButton>
     ),
   });

@@ -7,8 +7,8 @@ import { HeaderButton } from './HeaderButton.component';
 const props = {
   navigation: {
     goBack: jest.fn(),
-    onPress: jest.fn(),
   },
+  onPress: jest.fn(),
 };
 
 describe('HeaderButton', () => {
@@ -19,6 +19,14 @@ describe('HeaderButton', () => {
         children: <View />,
       },
       description: 'basic render',
+    },
+    {
+      props: {
+        ...props,
+        isRightButton: true,
+        children: <View />,
+      },
+      description: 'render right button',
     },
   ]);
 });

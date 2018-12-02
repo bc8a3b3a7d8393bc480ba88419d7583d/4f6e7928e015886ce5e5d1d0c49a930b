@@ -21,16 +21,19 @@ exports[`Navigation/Component - TabButton snapshots should render default state 
       }
     }
   >
-    <Component
-      style={Object {}}
-    >
-      <Icon
-        allowFontScaling={false}
-        color="#8f8f8f"
-        name="check"
-        size={30}
-      />
-    </Component>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/navigation/home.png",
+        }
+      }
+      style={
+        Object {
+          "height": 20,
+          "width": 20,
+        }
+      }
+    />
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -73,16 +76,19 @@ exports[`Navigation/Component - TabButton snapshots should render with selected 
       }
     }
   >
-    <Component
-      style={Object {}}
-    >
-      <Icon
-        allowFontScaling={false}
-        color="#0d7fcc"
-        name="check"
-        size={30}
-      />
-    </Component>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/navigation/home_fill.png",
+        }
+      }
+      style={
+        Object {
+          "height": 20,
+          "width": 20,
+        }
+      }
+    />
     <Text
       accessible={true}
       allowFontScaling={true}

@@ -9,6 +9,7 @@ describe('Navigation/Component - TabButton', () => {
     title: 'Tab Button',
     route: 'Home',
     onPress: jest.fn(),
+    icon: 'home',
   };
 
   const render = props => shallow(<Component {...props} />);

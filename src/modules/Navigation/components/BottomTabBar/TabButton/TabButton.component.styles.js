@@ -14,7 +14,10 @@ export default StyleSheet.create({
   titleTextSelected: {
     color: COLORS.darkBlue,
   },
-  icon: {},
+  icon: {
+    width: 20,
+    height: 20,
+  },
   touchingArea: {
     flex: 1,
     alignItems: 'center',

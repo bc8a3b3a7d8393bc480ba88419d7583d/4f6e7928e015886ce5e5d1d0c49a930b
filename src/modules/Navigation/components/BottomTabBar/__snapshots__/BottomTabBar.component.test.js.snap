@@ -1,5 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Navigation/Component - BottomTabBar should render in iPhone X 1`] = `
+<Component
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "borderTopColor": "#8f8f8f",
+      "borderTopWidth": 0.5,
+      "flexDirection": "row",
+      "paddingBottom": 5,
+      "paddingTop": 5,
+    }
+  }
+>
+  <TabButton
+    icon="home"
+    key="MainTabNavigator.Home"
+    onPress={[Function]}
+    route="MainTabNavigator.Home"
+    selected={true}
+    testID=""
+    title="navigation.mainTabNavigator.home"
+  />
+  <TabButton
+    icon="home"
+    key="MainTabNavigator.Saved"
+    onPress={[Function]}
+    route="MainTabNavigator.Saved"
+    selected={false}
+    testID=""
+    title="navigation.mainTabNavigator.saved"
+  />
+  <TabButton
+    icon="booking"
+    key="MainTabNavigator.MyBooking"
+    onPress={[Function]}
+    route="MainTabNavigator.MyBooking"
+    selected={false}
+    testID=""
+    title="navigation.mainTabNavigator.myBooking"
+  />
+  <TabButton
+    icon="inbox"
+    key="MainTabNavigator.MyInbox"
+    onPress={[Function]}
+    route="MainTabNavigator.MyInbox"
+    selected={false}
+    testID=""
+    title="navigation.mainTabNavigator.myInbox"
+  />
+  <TabButton
+    icon="account"
+    key="MainTabNavigator.MyAccount"
+    onPress={[Function]}
+    route="MainTabNavigator.MyAccount"
+    selected={false}
+    testID=""
+    title="navigation.mainTabNavigator.myAccount"
+  />
+</Component>
+`;
+
 exports[`Navigation/Component - BottomTabBar snapshots basic render 1`] = `
 <Component
   style={
@@ -15,6 +77,7 @@ exports[`Navigation/Component - BottomTabBar snapshots basic render 1`] = `
   }
 >
   <TabButton
+    icon="home"
     key="MainTabNavigator.Home"
     onPress={[Function]}
     route="MainTabNavigator.Home"
@@ -23,6 +86,7 @@ exports[`Navigation/Component - BottomTabBar snapshots basic render 1`] = `
     title="navigation.mainTabNavigator.home"
   />
   <TabButton
+    icon="home"
     key="MainTabNavigator.Saved"
     onPress={[Function]}
     route="MainTabNavigator.Saved"
@@ -31,6 +95,7 @@ exports[`Navigation/Component - BottomTabBar snapshots basic render 1`] = `
     title="navigation.mainTabNavigator.saved"
   />
   <TabButton
+    icon="booking"
     key="MainTabNavigator.MyBooking"
     onPress={[Function]}
     route="MainTabNavigator.MyBooking"
@@ -39,6 +104,7 @@ exports[`Navigation/Component - BottomTabBar snapshots basic render 1`] = `
     title="navigation.mainTabNavigator.myBooking"
   />
   <TabButton
+    icon="inbox"
     key="MainTabNavigator.MyInbox"
     onPress={[Function]}
     route="MainTabNavigator.MyInbox"
@@ -47,6 +113,7 @@ exports[`Navigation/Component - BottomTabBar snapshots basic render 1`] = `
     title="navigation.mainTabNavigator.myInbox"
   />
   <TabButton
+    icon="account"
     key="MainTabNavigator.MyAccount"
     onPress={[Function]}
     route="MainTabNavigator.MyAccount"

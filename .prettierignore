@@ -7,3 +7,4 @@ android/
 ios/
 **/*.snap
 yarn.lock
+src/assets/images/

@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { Text, View, TouchableWithoutFeedback } from 'react-native';
+import { Text, Image, View, TouchableWithoutFeedback } from 'react-native';
 import PropTypes from 'prop-types';
 
 import styles from './TabButton.component.styles';
-import IconSet from '../../../../../components/Icon/Icon.component';
-import { COLORS } from '../../../../../themes';
+import { NavigationImages } from '../../../../../assets/images';
 
 class TabButton extends Component {
   onPress = () => {
@@ -13,10 +12,9 @@ class TabButton extends Component {
   };
 
   render() {
-    const { testID, title, selected } = this.props;
+    const { testID, title, selected, icon } = this.props;
     const titleStyle = [styles.titleText, selected && styles.titleTextSelected];
-    const iconColor = selected ? COLORS.darkBlue : COLORS.black300;
-
+    const iconName = selected ? `${icon}Selected` : icon;
     return (
       <TouchableWithoutFeedback
         testID={testID}
@@ -24,9 +22,7 @@ class TabButton extends Component {
         style={styles.touchingArea}
       >
         <View style={styles.container}>
-          <View style={styles.icon}>
-            <IconSet color={iconColor} name="check" size={30} />
-          </View>
+          <Image style={styles.icon} source={NavigationImages.tab[iconName]} />
           <Text style={titleStyle}>{title}</Text>
         </View>
       </TouchableWithoutFeedback>
@@ -44,6 +40,7 @@ TabButton.propTypes = {
   title: PropTypes.string.isRequired,
   selected: PropTypes.bool,
   route: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
 };
 
 export default TabButton;

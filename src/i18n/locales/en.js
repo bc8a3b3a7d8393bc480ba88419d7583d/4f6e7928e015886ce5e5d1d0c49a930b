@@ -57,6 +57,20 @@ export default {
       },
     },
   },
+  home: {
+    login: {
+      title: 'Log In or Register',
+      text: 'Entry your Traveloka member benefits',
+    },
+    bookingMenu: {
+      flights: 'Flights',
+      hotels: 'Hotels',
+      airportTransport: 'Airport Transport',
+      priceAlerts: 'Price Alerts',
+      myPoints: 'My Points',
+    },
+  },
+
   /* --------------------- END SCREEN --------------------- */
 
   /* --------------------- START COMMON --------------------- */
