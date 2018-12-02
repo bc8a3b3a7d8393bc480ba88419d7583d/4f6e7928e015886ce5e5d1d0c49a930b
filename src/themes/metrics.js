@@ -11,10 +11,15 @@ const metrics = {
     normal: 5,
   },
   statusBarHeight: isIPhoneX() ? 44 : 20,
-  navigationBarHeight: 44,
+  navigation: {
+    buttonSize: 40,
+  },
   button: {
     defaultHeight: 40,
     atBottomScreenHeight: isIPhoneX() ? 60 : 40,
+  },
+  separator: {
+    defaultHeight: 1,
   },
 };
 

@@ -27,7 +27,7 @@ class LandingView extends Component {
     const {
       navigation: { navigate },
     } = this.props;
-    navigate(Routes.Authentication.Introduction);
+    navigate(Routes.AuthNavigator.Introduction);
   };
 
   renderHeader = () => {

@@ -1,3 +1,9 @@
-**/*.*
-!**/*.js
-
+blueprints/
+.eslintignore
+.idea/
+.prettierignore
+.reduxrc
+android/
+ios/
+**/*.snap
+yarn.lock

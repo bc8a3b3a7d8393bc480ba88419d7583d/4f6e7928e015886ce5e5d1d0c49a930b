@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation/Component - BottomTabBar snapshots basic render 1`] = `
+<Component
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "borderTopColor": "#8f8f8f",
+      "borderTopWidth": 0.5,
+      "flexDirection": "row",
+      "paddingBottom": 5,
+      "paddingTop": 5,
+    }
+  }
+>
+  <TabButton
+    key="MainTabNavigator.Home"
+    onPress={[Function]}
+    route="MainTabNavigator.Home"
+    selected={true}
+    testID=""
+    title="navigation.mainTabNavigator.home"
+  />
+  <TabButton
+    key="MainTabNavigator.Saved"
+    onPress={[Function]}
+    route="MainTabNavigator.Saved"
+    selected={false}
+    testID=""
+    title="navigation.mainTabNavigator.saved"
+  />
+  <TabButton
+    key="MainTabNavigator.MyBooking"
+    onPress={[Function]}
+    route="MainTabNavigator.MyBooking"
+    selected={false}
+    testID=""
+    title="navigation.mainTabNavigator.myBooking"
+  />
+  <TabButton
+    key="MainTabNavigator.MyInbox"
+    onPress={[Function]}
+    route="MainTabNavigator.MyInbox"
+    selected={false}
+    testID=""
+    title="navigation.mainTabNavigator.myInbox"
+  />
+  <TabButton
+    key="MainTabNavigator.MyAccount"
+    onPress={[Function]}
+    route="MainTabNavigator.MyAccount"
+    selected={false}
+    testID=""
+    title="navigation.mainTabNavigator.myAccount"
+  />
+</Component>
+`;

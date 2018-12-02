@@ -1,5 +1,6 @@
 /* eslint-disable max-lines */
 export default {
+  /* --------------------- START SCREEN --------------------- */
   landing: {
     header: {
       welcome: 'Hello! Welcome to {{appName}}',
@@ -56,4 +57,22 @@ export default {
       },
     },
   },
+  /* --------------------- END SCREEN --------------------- */
+
+  /* --------------------- START COMMON --------------------- */
+
+  navigation: {
+    mainTabNavigator: {
+      home: 'Home',
+      saved: 'Saved',
+      myBooking: 'My Booking',
+      myInbox: 'My Inbox',
+      myAccount: 'My Account',
+    },
+    homeNavigator: {
+      home: 'Home',
+    },
+  },
+
+  /* --------------------- END COMMON --------------------- */
 };
