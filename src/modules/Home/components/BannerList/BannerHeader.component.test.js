@@ -9,6 +9,8 @@ describe('Modules/Home - BannerHeader', () => {
       props: {
         title: 'Flights',
         subTitle: 'flight flight',
+        titleColor: 'blue',
+        subTitleColor: 'red',
       },
     },
   ]);

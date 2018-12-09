@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Home - BannerHeader snapshots basic render 1`] = `
+<Component
+  style={
+    Object {
+      "paddingBottom": 10,
+      "paddingHorizontal": 10,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "black",
+          "fontFamily": "Oswald-Regular",
+          "fontSize": 18,
+        },
+        Object {
+          "color": "blue",
+        },
+      ]
+    }
+  >
+    Flights
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#8f8f8f",
+          "fontFamily": "Oswald-Regular",
+          "fontSize": 12,
+        },
+        Object {
+          "color": "red",
+        },
+      ]
+    }
+  >
+    flight flight
+  </Text>
+</Component>
+`;

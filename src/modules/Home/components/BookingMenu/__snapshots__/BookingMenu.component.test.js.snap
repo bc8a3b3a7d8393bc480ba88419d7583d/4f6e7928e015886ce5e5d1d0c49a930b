@@ -2,6 +2,7 @@
 
 exports[`Modules/Home - BookingMenu snapshots basic render 1`] = `
 <Component
+  onLayout={[Function]}
   style={
     Object {
       "flexDirection": "row",
@@ -24,19 +25,31 @@ exports[`Modules/Home - BookingMenu snapshots basic render 1`] = `
     title="home.bookingMenu.hotels"
   />
   <BookingMenuItem
-    image="flight"
+    image="attractionsAndActivities"
+    key="home.bookingMenu.attractionsAndActivities"
+    onPress={[MockFunction]}
+    title="home.bookingMenu.attractionsAndActivities"
+  />
+  <BookingMenuItem
+    image="airportTransport"
     key="home.bookingMenu.airportTransport"
     onPress={[MockFunction]}
     title="home.bookingMenu.airportTransport"
   />
   <BookingMenuItem
-    image="flight"
+    image="flightStatus"
+    key="home.bookingMenu.flightStatus"
+    onPress={[MockFunction]}
+    title="home.bookingMenu.flightStatus"
+  />
+  <BookingMenuItem
+    image="priceAlerts"
     key="home.bookingMenu.priceAlerts"
     onPress={[MockFunction]}
     title="home.bookingMenu.priceAlerts"
   />
   <BookingMenuItem
-    image="flight"
+    image="myPoints"
     key="home.bookingMenu.myPoints"
     onPress={[MockFunction]}
     title="home.bookingMenu.myPoints"

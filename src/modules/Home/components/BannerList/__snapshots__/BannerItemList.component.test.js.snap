@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Home - BannerItemList render grid list 1`] = `
+<Component
+  style={
+    Object {
+      "overflow": "hidden",
+      "paddingVertical": 15,
+    }
+  }
+>
+  <BannerHeader
+    subTitle="flight"
+    subTitleColor="#696969"
+    title="Flights"
+    titleColor="#000000"
+  />
+  <FlatList
+    data={
+      Array [
+        Object {
+          "attributes": Object {
+            "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/29/1543491168198-a6155734ddedef7ec6c4c230e5386bb5.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+            "cornerLabelText": null,
+            "iconImage": null,
+            "ribbonText": null,
+            "subtitle": null,
+            "title": null,
+          },
+          "id": "traveloka://cms/viewDescription/guidelines/transfer?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=GRID",
+          "link": "traveloka://cms/viewDescription/guidelines/transfer?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=GRID",
+          "linkType": "DEEPLINK",
+          "style": Object {
+            "properties": Object {
+              "overlay": true,
+              "subtitleColor": "#000000",
+              "textHorizontalAlignment": "LEFT",
+              "textPlacement": "OUTSIDE",
+              "textVerticalAlignment": "BOTTOM",
+              "titleColor": "#000000",
+              "titleType": "TYPE_1",
+            },
+          },
+          "type": "default",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    pagingEnabled={true}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    style={
+      Array [
+        Object {
+          "borderRadius": 5,
+          "overflow": "hidden",
+        },
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+        },
+      ]
+    }
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</Component>
+`;
+
+exports[`Modules/Home - BannerItemList snapshots basic render 1`] = `
+<Component
+  style={
+    Object {
+      "overflow": "hidden",
+      "paddingVertical": 15,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://tvlk.imgix.net/imageResource/2018/08/31/1535716635325-9e081df7c965034b019030619a183e2a.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+      }
+    }
+    style={
+      Object {
+        "height": "120%",
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  />
+  <BannerHeader
+    subTitle="flight"
+    subTitleColor="#696969"
+    title="Flights"
+    titleColor="#000000"
+  />
+  <FlatList
+    data={
+      Array [
+        Object {
+          "attributes": Object {
+            "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540785749153-f3fe687a48f52ebc64a754c1b16b4457.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+            "cornerLabelText": null,
+            "iconImage": null,
+            "ribbonText": null,
+            "subtitle": null,
+            "title": null,
+          },
+          "id": "traveloka://flight/search/one_way/0/HAN/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+          "link": "traveloka://flight/search/one_way/0/HAN/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+          "linkType": "DEEPLINK",
+          "style": Object {
+            "properties": Object {
+              "additionalTextColor": "#e91d1d",
+              "subtitleColor": "#8f8f8f",
+              "titleColor": "#1b1b1b",
+            },
+          },
+          "type": "default",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={true}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    pagingEnabled={true}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    style={
+      Array [
+        Object {
+          "borderRadius": 5,
+          "overflow": "hidden",
+        },
+        false,
+      ]
+    }
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</Component>
+`;

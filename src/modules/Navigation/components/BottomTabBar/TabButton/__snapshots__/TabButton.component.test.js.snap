@@ -79,7 +79,7 @@ exports[`Navigation/Component - TabButton snapshots should render with selected 
     <Image
       source={
         Object {
-          "testUri": "../../../src/assets/images/navigation/home_fill.png",
+          "testUri": "../../../src/assets/images/navigation/homeSelected.png",
         }
       }
       style={

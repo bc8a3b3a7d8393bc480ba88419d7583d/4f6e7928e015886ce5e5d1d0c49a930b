@@ -14,7 +14,6 @@ exports[`Modules/Home - BookingMenuItem snapshots basic render 1`] = `
         "flex": 1,
         "justifyContent": "center",
         "margin": 3,
-        "marginBottom": 10,
         "maxHeight": 70,
         "minWidth": 90,
         "padding": 10,
@@ -52,7 +51,7 @@ exports[`Modules/Home - BookingMenuItem snapshots basic render 1`] = `
         Object {
           "color": "black",
           "fontFamily": "Oswald-Regular",
-          "fontSize": 12,
+          "fontSize": 10,
         }
       }
     >

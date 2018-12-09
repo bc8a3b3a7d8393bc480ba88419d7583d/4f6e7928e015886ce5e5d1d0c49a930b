@@ -88,6 +88,7 @@ BannerItem.propTypes = {
     style: PropTypes.shape({
       titleColor: PropTypes.string,
     }),
+    linkType: PropTypes.string.isRequired,
   }).isRequired,
 };
 

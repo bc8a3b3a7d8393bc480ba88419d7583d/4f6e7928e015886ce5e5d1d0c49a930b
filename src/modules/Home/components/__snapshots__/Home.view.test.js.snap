@@ -1,0 +1,934 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Home - BannerItemList snapshots basic render 1`] = `
+<Component
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <ScrollView
+    onScroll={[Function]}
+    scrollEventThrottle={16}
+  >
+    <Login
+      onPress={[Function]}
+    />
+    <BookingMenu
+      onPressFlight={[Function]}
+    />
+    <BannerList
+      data={
+        Array [
+          Object {
+            "attributes": Object {
+              "specialItemFront": true,
+            },
+            "countdown": null,
+            "iconTitle": null,
+            "items": Array [
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/10/1539169618178-1b98392ec33fc7264a249112a37e73dd.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": "https://tvlk.imgix.net/imageResource/2018/03/28/1522238393788-a1ea3b1b31fe85fe7e8d000f9e3c0ff3.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": "See All Promos",
+                },
+                "id": "traveloka://promo?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://promo?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": false,
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "INSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#FFFFFF",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/30/1543574431638-a99ef4f38f4661ecbc8430026b3d7634.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://promotion/quocte?locale=en-vn&interface=mobile-apps&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://promotion/quocte?locale=en-vn&interface=mobile-apps&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {},
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/12/05/1543982741653-aa39bb56446fa6c0e3fc214e76e22ea8.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://promotion/festive?locale=en-vn&interface=mobile-apps&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://promotion/festive?locale=en-vn&interface=mobile-apps&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {},
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/12/04/1543910729976-da36ed41ba8af7b1049cb593805650a7.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://promotion/point?locale=en-vn&interface=mobile-apps&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://promotion/point?locale=en-vn&interface=mobile-apps&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {},
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/26/1543222653379-7ebed5cb4b458d3f2c4bc359e11fd90c.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://promotion/endofyear?locale=en-vn&interface=mobile-apps&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://promotion/endofyear?locale=en-vn&interface=mobile-apps&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {},
+                },
+                "type": "default",
+              },
+            ],
+            "link": "traveloka://promo",
+            "sectionId": "ongoing-promo",
+            "sectionName": "ongoing-promo",
+            "style": Object {
+              "properties": Object {
+                "ratio": "2:1",
+                "visibleItems": "1.25",
+              },
+              "subtitleColor": "#687176",
+              "titleColor": "#03121a",
+              "type": "IMAGE_CAROUSEL",
+            },
+            "subtitle": "",
+            "title": "Ongoing Promos",
+          },
+          Object {
+            "attributes": Object {
+              "highlighted": "false",
+              "specialItemBack": "false",
+              "specialItemFront": "false",
+            },
+            "countdown": null,
+            "iconTitle": null,
+            "items": Array [
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/29/1543490097475-cb2ff4f96cb7d69f9484642186469a54.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://hotel/search/region/spec?typeName=Da%20Lat%20City&typeId=10010169&quickFilterId=15&checkInDate=29-12-2018&checkOutDate=31-12-2018&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://hotel/search/region/spec?typeName=Da%20Lat%20City&typeId=10010169&quickFilterId=15&checkInDate=29-12-2018&checkOutDate=31-12-2018&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#000000",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "INSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#ffffff",
+                    "titleType": "TYPE_2",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/29/1543490105483-37e8e484aa44a689a135242afbfc98bd.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://hotel/search/region/spec?typeName=Sa%20Pa&typeId=10009950&quickFilterId=15&checkInDate=29-12-2018&checkOutDate=31-12-2018&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://hotel/search/region/spec?typeName=Sa%20Pa&typeId=10009950&quickFilterId=15&checkInDate=29-12-2018&checkOutDate=31-12-2018&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#000000",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "INSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#ffffff",
+                    "titleType": "TYPE_2",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/29/1543490129764-459bcf1b095c137eb8891801ae3e1459.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://hotel/search/region/spec?typeName=Vung%20Tau%20City&typeId=10009888&quickFilterId=15&checkInDate=29-12-2018&checkOutDate=31-12-2018&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://hotel/search/region/spec?typeName=Vung%20Tau%20City&typeId=10009888&quickFilterId=15&checkInDate=29-12-2018&checkOutDate=31-12-2018&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#000000",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "INSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#ffffff",
+                    "titleType": "TYPE_2",
+                  },
+                },
+                "type": "default",
+              },
+            ],
+            "link": null,
+            "sectionId": "vi-hotel-geo",
+            "sectionName": "vi-hotel-geo",
+            "style": Object {
+              "properties": Object {
+                "ratio": "1:1",
+                "visibleItems": "2.05",
+              },
+              "subtitleColor": "#696969",
+              "titleColor": "#000000",
+              "type": "IMAGE_CAROUSEL",
+            },
+            "subtitle": "Worry-free holiday getaways!",
+            "title": "Exclusive hotel deals for New Year",
+          },
+          Object {
+            "attributes": Object {
+              "highlighted": "false",
+              "specialItemBack": "false",
+              "specialItemFront": "false",
+            },
+            "countdown": null,
+            "iconTitle": null,
+            "items": Array [
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540785749153-f3fe687a48f52ebc64a754c1b16b4457.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://flight/search/one_way/0/HAN/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://flight/search/one_way/0/HAN/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "additionalTextColor": "#e91d1d",
+                    "subtitleColor": "#8f8f8f",
+                    "titleColor": "#1b1b1b",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540783824593-6639dc81ec97d8309915d5b1f475b61f.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://flight/search/one_way/0/DAD/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://flight/search/one_way/0/DAD/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "additionalTextColor": "#e91d1d",
+                    "subtitleColor": "#8f8f8f",
+                    "titleColor": "#1b1b1b",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540783692952-6cd5699c5b98cd71d8b7a429cf61e04a.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://flight/search/one_way/0/SGN/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://flight/search/one_way/0/SGN/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "additionalTextColor": "#e91d1d",
+                    "subtitleColor": "#8f8f8f",
+                    "titleColor": "#1b1b1b",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540783837164-675f0484bb92a99bbceb95adc07a18df.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://flight/search/one_way/0/CXR/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://flight/search/one_way/0/CXR/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "additionalTextColor": "#e91d1d",
+                    "subtitleColor": "#8f8f8f",
+                    "titleColor": "#1b1b1b",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540783844147-113e0093539abc6d9fd9f25ad29c3184.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://flight/search/one_way/0/BKK/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://flight/search/one_way/0/BKK/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#000000",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "OUTSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#000000",
+                    "titleType": "TYPE_1",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540783851606-fb7354fe8012e6431fe43d17a596e873.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://flight/search/one_way/0/VII/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://flight/search/one_way/0/VII/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#000000",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "OUTSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#000000",
+                    "titleType": "TYPE_1",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540783861349-f18e45182731d3c56cbcfb403514e3c3.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://flight/search/one_way/0/HPH/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://flight/search/one_way/0/HPH/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#000000",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "OUTSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#000000",
+                    "titleType": "TYPE_1",
+                  },
+                },
+                "type": "default",
+              },
+            ],
+            "link": null,
+            "sectionId": "vi-best-flight-deal",
+            "sectionName": "vi-best-flight-deal",
+            "style": Object {
+              "properties": Object {
+                "ratio": "3:4",
+                "visibleItems": "1.8",
+              },
+              "subtitleColor": "#696969",
+              "titleColor": "#000000",
+              "type": "IMAGE_CAROUSEL",
+            },
+            "subtitle": "Big savings on flights! Book now!",
+            "title": "Fly home for cheap this Tet Holiday",
+          },
+          Object {
+            "attributes": Object {
+              "highlighted": "false",
+              "specialItemBack": "false",
+              "specialItemFront": "false",
+            },
+            "countdown": null,
+            "iconTitle": null,
+            "items": Array [
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/30/1543579415444-ef08d8c92e40041f235012da6dac4a1b.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://promotion/hoteldeals1?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://promotion/hoteldeals1?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "additionalTextColor": "#e91d1d",
+                    "overlay": false,
+                    "subtitleColor": "#8f8f8f",
+                    "titleColor": "#1b1b1b",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/30/1543579424281-9fc1e0a8b8faccd08e7bda11f14661f5.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://promotion/hoteldeals2?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://promotion/hoteldeals2?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "additionalTextColor": "#e91d1d",
+                    "overlay": false,
+                    "subtitleColor": "#8f8f8f",
+                    "titleColor": "#1b1b1b",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/30/1543579430703-5be4ac678b1215e7fccb1f398d8a5278.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://promotion/hoteldeals3?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://promotion/hoteldeals3?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": false,
+                    "subtitleColor": "#000000",
+                    "titleColor": "#000000",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/30/1543579444499-acc1dcc2a8d773adb1a911adceb82084.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://promotion/hoteldeals4?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "traveloka://promotion/hoteldeals4?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#ffffff",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "OUTSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#000000",
+                    "titleType": "TYPE_1",
+                  },
+                },
+                "type": "default",
+              },
+            ],
+            "link": null,
+            "sectionId": "vi-best-hotel-deal",
+            "sectionName": "vi-best-hotel-deal",
+            "style": Object {
+              "properties": Object {
+                "ratio": "3:4",
+                "visibleItems": "1.8",
+              },
+              "subtitleColor": "#696969",
+              "titleColor": "#000000",
+              "type": "IMAGE_CAROUSEL",
+            },
+            "subtitle": "Great offers for your dreamlike getaways",
+            "title": "Wallet-friendly hotel picks",
+          },
+          Object {
+            "attributes": Object {
+              "highlighted": "false",
+              "specialItemBack": "false",
+              "specialItemFront": "false",
+            },
+            "iconTitle": null,
+            "items": Array [
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/12/06/1544098096801-df00ba09bb43640a37c01f02c4e9d34d.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "https://blog.traveloka.com/app/saigon-travel-guide/?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "https://blog.traveloka.com/app/saigon-travel-guide/?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#ffffff",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "INSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#ffffff",
+                    "titleType": "TYPE_2",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/12/06/1544098138375-6a2c7f29aef326c862449ee795ab0b18.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "https://blog.traveloka.com/app/da-nang-travel-guide/?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "https://blog.traveloka.com/app/da-nang-travel-guide/?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#ffffff",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "INSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#ffffff",
+                    "titleType": "TYPE_2",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/19/1542597271099-5b3f4011c14e772140a89bf2680cb07b.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "https://blog.traveloka.com/app/hanoi-travel-guide/?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "https://blog.traveloka.com/app/hanoi-travel-guide/?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#ffffff",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "INSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#ffffff",
+                    "titleType": "TYPE_2",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/19/1542596852245-4a84831208b9f2638d20f44bea258a97.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "https://blog.traveloka.com/app/da-lat-travel-guide/?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "link": "https://blog.traveloka.com/app/da-lat-travel-guide/?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#ffffff",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "INSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#ffffff",
+                    "titleType": "TYPE_2",
+                  },
+                },
+                "type": "default",
+              },
+            ],
+            "link": null,
+            "sectionId": "vi-trending-destination",
+            "sectionName": "vi-trending-destination",
+            "style": Object {
+              "properties": Object {
+                "background": "https://tvlk.imgix.net/imageResource/2018/08/31/1535716635325-9e081df7c965034b019030619a183e2a.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+                "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/08/31/1535716635325-9e081df7c965034b019030619a183e2a.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+                "ratio": "4:3",
+                "visibleItems": "1.1",
+              },
+              "subtitleColor": "#77c6ee",
+              "titleColor": "#ffffff",
+              "type": "IMAGE_CAROUSEL",
+            },
+            "subtitle": "Your next big adventure awaits",
+            "title": "Destinations on the rise",
+          },
+          Object {
+            "attributes": Object {},
+            "countdown": null,
+            "iconTitle": null,
+            "items": Array [
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/12/06/1544099233553-3156a593a1841b0033d310ffeee40a7c.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "ctaText": null,
+                  "description": null,
+                  "ribbonText": null,
+                  "title": null,
+                },
+                "id": "https://youtu.be/VAEeFkw8doM?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=FULL_BANNER",
+                "link": "https://youtu.be/VAEeFkw8doM?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=FULL_BANNER",
+                "linkType": "VIDEO",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#ffffff",
+                    "textHorizontalAlignment": "LEFT",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#ffffff",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/12/06/1544098995262-c77884382abb04954d92096995c34629.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "ctaText": null,
+                  "description": null,
+                  "ribbonText": null,
+                  "title": null,
+                },
+                "id": "https://www.youtube.com/watch?v=md_BTKc1YqE&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=FULL_BANNER",
+                "link": "https://www.youtube.com/watch?v=md_BTKc1YqE&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=FULL_BANNER",
+                "linkType": "VIDEO",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#ffffff",
+                    "textHorizontalAlignment": "LEFT",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#ffffff",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/01/1541056747625-33573ee7a45ad1be87d6ca0fb5b3e0f6.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "ctaText": null,
+                  "description": null,
+                  "ribbonText": null,
+                  "title": null,
+                },
+                "id": "https://www.youtube.com/watch?v=e51fnEVTEtE&t=7s&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=FULL_BANNER",
+                "link": "https://www.youtube.com/watch?v=e51fnEVTEtE&t=7s&utm_source=mainAppHomePage.mainAppHomePage&utm_medium=FULL_BANNER",
+                "linkType": "VIDEO",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#ffffff",
+                    "textHorizontalAlignment": "LEFT",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#ffffff",
+                  },
+                },
+                "type": "default",
+              },
+            ],
+            "link": null,
+            "sectionId": "vi-travel-videos",
+            "sectionName": "vi-travel-videos",
+            "style": Object {
+              "properties": Object {
+                "columns": "1",
+                "ratio": "3:2",
+              },
+              "subtitleColor": "#696969",
+              "titleColor": "#000000",
+              "type": "FULL_BANNER",
+            },
+            "subtitle": "Dreamy visuals to inspire your next trip",
+            "title": "Watch and Hit the road",
+          },
+          Object {
+            "attributes": Object {
+              "highlighted": "false",
+              "specialItemBack": "false",
+              "specialItemFront": "false",
+            },
+            "iconTitle": null,
+            "items": Array [
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/29/1543491168198-a6155734ddedef7ec6c4c230e5386bb5.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://cms/viewDescription/guidelines/transfer?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=GRID",
+                "link": "traveloka://cms/viewDescription/guidelines/transfer?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=GRID",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#000000",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "OUTSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#000000",
+                    "titleType": "TYPE_1",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/29/1543491176641-afcf534948ccbef62afeac80ca9cd481.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://cms/viewDescription/guidelines/internet_banking?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=GRID",
+                "link": "traveloka://cms/viewDescription/guidelines/internet_banking?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=GRID",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#000000",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "OUTSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#000000",
+                    "titleType": "TYPE_1",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/29/1543491183244-0f864e80ec1898381bca91d640a97cac.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://cms/viewDescription/guidelines/pay_at_store?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=GRID",
+                "link": "traveloka://cms/viewDescription/guidelines/pay_at_store?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=GRID",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#000000",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "OUTSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#000000",
+                    "titleType": "TYPE_1",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/29/1543491189982-17ea9e78a36e1a65bf59e2643def6179.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://cms/viewDescription/guidelines/vn_post?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=GRID",
+                "link": "traveloka://cms/viewDescription/guidelines/vn_post?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=GRID",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#000000",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "OUTSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#000000",
+                    "titleType": "TYPE_1",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/29/1543491194362-59cdd59516a4c8d5e83842f39d9f8ecd.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "traveloka://cms/viewDescription/guidelines/credit_card?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=GRID",
+                "link": "traveloka://cms/viewDescription/guidelines/credit_card?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=GRID",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#000000",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "OUTSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#000000",
+                    "titleType": "TYPE_1",
+                  },
+                },
+                "type": "default",
+              },
+              Object {
+                "attributes": Object {
+                  "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/11/29/1543491197812-cedd0e7b77acba1851ff07c3b9576c74.png?auto=compress%2Cformat&cs=srgb&fm=png&ixlib=java-1.1.12&q=75",
+                  "cornerLabelText": null,
+                  "iconImage": null,
+                  "ribbonText": null,
+                  "subtitle": null,
+                  "title": null,
+                },
+                "id": "https://www.traveloka.com/vi-vn/pay-at-hotel?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=GRID",
+                "link": "https://www.traveloka.com/vi-vn/pay-at-hotel?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=GRID",
+                "linkType": "DEEPLINK",
+                "style": Object {
+                  "properties": Object {
+                    "overlay": true,
+                    "subtitleColor": "#000000",
+                    "textHorizontalAlignment": "LEFT",
+                    "textPlacement": "OUTSIDE",
+                    "textVerticalAlignment": "BOTTOM",
+                    "titleColor": "#000000",
+                    "titleType": "TYPE_1",
+                  },
+                },
+                "type": "default",
+              },
+            ],
+            "link": null,
+            "sectionId": "vi-hygiene-content",
+            "sectionName": "vi-hygiene-content",
+            "style": Object {
+              "properties": Object {
+                "columns": "3",
+                "ratio": "1:1",
+                "visibleItems": "2.5",
+              },
+              "subtitleColor": "#696969",
+              "titleColor": "#000000",
+              "type": "GRID",
+            },
+            "subtitle": "Easy ways to pay for your trip",
+            "title": "Payment Guidelines",
+          },
+        ]
+      }
+    />
+  </ScrollView>
+  <BookingMenuShortcut />
+</Component>
+`;
