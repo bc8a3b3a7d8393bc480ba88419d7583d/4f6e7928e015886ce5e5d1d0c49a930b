@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { ScrollView } from 'react-native';
 import PropTypes from 'prop-types';
 
 import styles from './Home.view.styles';
 import Login from './Login/Login.component';
 import BookingMenu from './BookingMenu/BookingMenu.component';
+import BannerList from './BannerList/BannerList.component';
 
 class HomeView extends Component {
   onLogin = () => {};
@@ -13,10 +14,11 @@ class HomeView extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
+      <ScrollView style={styles.container}>
         <Login onPress={this.onLogin} />
         <BookingMenu onPressFlight={this.onPressFlight} />
-      </View>
+        <BannerList />
+      </ScrollView>
     );
   }
 }

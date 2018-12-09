@@ -1,4 +1,7 @@
+import { Dimensions } from 'react-native';
 import { isIPhoneX } from '../utils/platform.utils';
+
+const { width, height } = Dimensions.get('window');
 
 const metrics = {
   spacing: {
@@ -20,6 +23,10 @@ const metrics = {
   },
   separator: {
     defaultHeight: 1,
+  },
+  device: {
+    screenWidth: width,
+    screenHeight: height,
   },
 };
 
