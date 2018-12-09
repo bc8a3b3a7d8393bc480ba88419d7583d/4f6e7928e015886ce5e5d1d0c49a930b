@@ -26,7 +26,9 @@ class HomeScreen extends Component {
   }
 }
 
-const mapStateToProps = state => ({});
+const mapStateToProps = state => ({
+  data: state.home,
+});
 const mapDispatchToProps = dispatch =>
   bindActionCreators(HomeActions, dispatch);
 

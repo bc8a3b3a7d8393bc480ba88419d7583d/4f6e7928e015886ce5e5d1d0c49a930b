@@ -65,7 +65,9 @@ export default {
     bookingMenu: {
       flights: 'Flights',
       hotels: 'Hotels',
+      attractionsAndActivities: 'Acttractions & Activities',
       airportTransport: 'Airport Transport',
+      flightStatus: 'Filght Status',
       priceAlerts: 'Price Alerts',
       myPoints: 'My Points',
     },

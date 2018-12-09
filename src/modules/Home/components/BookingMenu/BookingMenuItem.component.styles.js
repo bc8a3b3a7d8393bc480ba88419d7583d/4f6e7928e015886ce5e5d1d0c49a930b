@@ -7,7 +7,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     padding: METRICS.spacing.normal,
-    marginBottom: METRICS.spacing.normal,
     borderRadius: 10,
     margin: 3,
     minWidth: 90,
@@ -30,7 +29,7 @@ const styles = StyleSheet.create({
     marginBottom: METRICS.spacing.small,
   },
   title: {
-    ...TEXT_STYLES.h4,
+    ...TEXT_STYLES.h5,
     color: COLORS.black,
   },
 });

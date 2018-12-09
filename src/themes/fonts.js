@@ -5,6 +5,7 @@ const SIZE = {
   h2: 18,
   h3: 16,
   h4: 12,
+  h5: 10,
   _: 14,
 };
 const STYLE = {

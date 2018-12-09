@@ -16,4 +16,15 @@ const styles = StyleSheet.create({
   },
 });
 
+const setTitleColor = titleColor =>
+  titleColor && {
+    color: titleColor,
+  };
+
+const setSubTitleColor = subTitleColor =>
+  subTitleColor && {
+    color: subTitleColor,
+  };
+
 export default styles;
+export { setTitleColor, setSubTitleColor };

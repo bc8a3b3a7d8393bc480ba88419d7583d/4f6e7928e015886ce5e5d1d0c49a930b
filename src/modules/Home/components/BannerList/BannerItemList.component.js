@@ -35,6 +35,8 @@ class BannerItemList extends React.PureComponent {
     const {
       type: sectionType,
       properties: { background },
+      titleColor,
+      subtitleColor,
     } = itemStyle;
     return (
       <View style={styles.container}>
@@ -48,7 +50,12 @@ class BannerItemList extends React.PureComponent {
             }}
           />
         )}
-        <BannerHeader title={title} subTitle={subTitle} />
+        <BannerHeader
+          title={title}
+          subTitle={subTitle}
+          titleColor={titleColor}
+          subTitleColor={subtitleColor}
+        />
         <FlatList
           pagingEnabled
           showsHorizontalScrollIndicator={false}
@@ -68,10 +75,46 @@ BannerItemList.defaultProps = {
 };
 
 BannerItemList.propTypes = {
-  // onPress: PropTypes.func.isRequired,
-  // image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   subTitle: PropTypes.string,
+
+  itemStyle: PropTypes.shape({
+    properties: PropTypes.shape({
+      visibleItems: PropTypes.string,
+      ratio: PropTypes.string.isRequired,
+    }).isRequired,
+    titleColor: PropTypes.string.isRequired,
+    subtitleColor: PropTypes.string,
+    type: PropTypes.string.isRequired,
+  }).isRequired,
+
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      type: PropTypes.string.isRequired,
+      link: PropTypes.string.isRequired,
+      linkType: PropTypes.string.isRequired,
+      attributes: PropTypes.shape({
+        title: PropTypes.string,
+        ribbonText: PropTypes.string,
+        iconImage: PropTypes.string,
+        subtitle: PropTypes.string,
+        backgroundImage: PropTypes.string.isRequired,
+        cornerLabelText: PropTypes.string,
+      }).isRequired,
+      style: PropTypes.shape({
+        properties: PropTypes.shape({
+          textPlacement: PropTypes.string,
+          overlay: PropTypes.bool,
+          textVerticalAlignment: PropTypes.string,
+          textHorizontalAlignment: PropTypes.string,
+          titleColor: PropTypes.string,
+          subtitleColor: PropTypes.string,
+          additionalTextColor: PropTypes.string,
+        }).isRequired,
+      }).isRequired,
+    }),
+  ).isRequired,
 };
 
 export default BannerItemList;

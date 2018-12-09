@@ -13,18 +13,28 @@ export default [
     onPress: 'onPressFlight',
   },
   {
+    title: i18n('attractionsAndActivities'),
+    image: 'attractionsAndActivities',
+    onPress: 'onPressFlight',
+  },
+  {
     title: i18n('airportTransport'),
-    image: 'flight',
+    image: 'airportTransport',
+    onPress: 'onPressFlight',
+  },
+  {
+    title: i18n('flightStatus'),
+    image: 'flightStatus',
     onPress: 'onPressFlight',
   },
   {
     title: i18n('priceAlerts'),
-    image: 'flight',
+    image: 'priceAlerts',
     onPress: 'onPressFlight',
   },
   {
     title: i18n('myPoints'),
-    image: 'flight',
+    image: 'myPoints',
     onPress: 'onPressFlight',
   },
 ];

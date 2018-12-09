@@ -76,11 +76,18 @@ BannerItem.propTypes = {
   onPress: PropTypes.func.isRequired,
   containerStyle: ViewPropTypes.style,
   isLastItem: PropTypes.bool,
+  itemStyle: PropTypes.shape({
+    type: PropTypes.string.isRequired,
+  }).isRequired,
   data: PropTypes.shape({
     attributes: PropTypes.shape({
       backgroundImage: PropTypes.string.isRequired,
       title: PropTypes.string,
+      iconImage: PropTypes.string,
     }).isRequired,
+    style: PropTypes.shape({
+      titleColor: PropTypes.string,
+    }),
   }).isRequired,
 };
 
