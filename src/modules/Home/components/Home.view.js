@@ -1,25 +1,52 @@
 import React, { Component } from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, View } from 'react-native';
 import PropTypes from 'prop-types';
 
 import styles from './Home.view.styles';
 import Login from './Login/Login.component';
 import BookingMenu from './BookingMenu/BookingMenu.component';
 import BannerList from './BannerList/BannerList.component';
+import BookingMenuShortcut from './BookingMenu/BookingMenuShortcut.component';
 
 class HomeView extends Component {
+  constructor(props) {
+    super(props);
+
+    this.bookingMenu = React.createRef();
+    this.bookingMenuShortcut = React.createRef();
+    this.shouldShowBookingMenuShortcut = false;
+  }
+
   onLogin = () => {};
 
   onPressFlight = () => {};
 
+  onScroll = ({
+    nativeEvent: {
+      contentOffset: { y },
+    },
+  }) => {
+    const show = y > this.bookingMenu.current.position;
+    if (this.shouldShowBookingMenuShortcut !== show) {
+      this.shouldShowBookingMenuShortcut = show;
+      this.bookingMenuShortcut.current.startAnimation(show);
+    }
+  };
+
   render() {
     const { data } = this.props;
     return (
-      <ScrollView style={styles.container}>
-        <Login onPress={this.onLogin} />
-        <BookingMenu onPressFlight={this.onPressFlight} />
-        <BannerList data={data} />
-      </ScrollView>
+      <View style={styles.container}>
+        <ScrollView onScroll={this.onScroll} scrollEventThrottle={16}>
+          <Login onPress={this.onLogin} />
+          <BookingMenu
+            ref={this.bookingMenu}
+            onPressFlight={this.onPressFlight}
+          />
+          <BannerList data={data} />
+        </ScrollView>
+        <BookingMenuShortcut ref={this.bookingMenuShortcut} />
+      </View>
     );
   }
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import { FlatList } from 'react-native';
 import PropTypes from 'prop-types';
 
-import styles from './BannerList.component.styles';
 import BannerItemList from './BannerItemList.component';
 
 class BannerList extends React.PureComponent {
@@ -25,7 +24,6 @@ class BannerList extends React.PureComponent {
     const { data } = this.props;
     return (
       <FlatList
-        contentContainerStyle={styles.containerContentStyle}
         renderItem={this.renderItem}
         data={data}
         keyExtractor={this.keyExtractor}

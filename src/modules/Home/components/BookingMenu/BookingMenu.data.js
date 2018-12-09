@@ -1,7 +1,7 @@
 import { translateWithNamespace } from '../../../../i18n';
 
 const i18n = translateWithNamespace('home.bookingMenu');
-export default [
+const defaultMenuItems = [
   {
     title: i18n('flights'),
     image: 'flight',
@@ -22,6 +22,9 @@ export default [
     image: 'airportTransport',
     onPress: 'onPressFlight',
   },
+];
+export default [
+  ...defaultMenuItems,
   {
     title: i18n('flightStatus'),
     image: 'flightStatus',
@@ -38,3 +41,5 @@ export default [
     onPress: 'onPressFlight',
   },
 ];
+
+export { defaultMenuItems };
