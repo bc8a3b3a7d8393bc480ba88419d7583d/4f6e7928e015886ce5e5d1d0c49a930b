@@ -3,6 +3,7 @@ blueprints/
 .idea/
 .prettierignore
 .reduxrc
+.codebeatsettings
 android/
 ios/
 **/*.snap
