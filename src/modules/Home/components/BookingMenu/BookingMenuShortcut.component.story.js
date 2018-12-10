@@ -6,8 +6,11 @@ import { storiesOf } from '@storybook/react-native';
 import Component from './BookingMenuShortcut.component';
 import ScreenView from '../../../../components/ScreenView/ScreenView.component';
 
-storiesOf('Modules/Home - BookingMenuShortcut', module).add('no button', () => (
-  <ScreenView>
-    <Component />
-  </ScreenView>
-));
+storiesOf('Modules/Home - BookingMenuShortcut', module).add(
+  'basic render',
+  () => (
+    <ScreenView>
+      <Component />
+    </ScreenView>
+  ),
+);

@@ -6,7 +6,7 @@ import { storiesOf } from '@storybook/react-native';
 import Component from './BookingMenuItem.component';
 import ScreenView from '../../../../components/ScreenView/ScreenView.component';
 
-storiesOf('Modules/Home - BookingMenuItem', module).add('no button', () => (
+storiesOf('Modules/Home - BookingMenuItem', module).add('basic render', () => (
   <ScreenView>
     <Component
       onPress={() => console.log('on BookingMenuItem')}

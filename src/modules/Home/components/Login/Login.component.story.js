@@ -6,7 +6,7 @@ import { storiesOf } from '@storybook/react-native';
 import Component from './Login.component';
 import ScreenView from '../../../../components/ScreenView/ScreenView.component';
 
-storiesOf('Modules/Home - Login', module).add('no button', () => (
+storiesOf('Modules/Home - Login', module).add('basic render', () => (
   <ScreenView>
     <Component onPress={() => console.log('on login')} />
   </ScreenView>
