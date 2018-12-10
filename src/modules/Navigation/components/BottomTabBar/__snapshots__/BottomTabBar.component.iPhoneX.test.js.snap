@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Navigation/Component - BottomTabBar snapshots basic render 1`] = `
+exports[`Navigation/Component - BottomTabBar snapshots basic render in iPhone X 1`] = `
 <Component
   style={
     Object {
@@ -9,7 +9,7 @@ exports[`Navigation/Component - BottomTabBar snapshots basic render 1`] = `
       "borderTopColor": "#8f8f8f",
       "borderTopWidth": 0.5,
       "flexDirection": "row",
-      "paddingBottom": 5,
+      "paddingBottom": 20,
       "paddingTop": 5,
     }
   }

@@ -1,12 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import DeviceInfo from 'react-native-device-info';
 
 import { testSnapshots } from '../../../../utils/test.utils';
 
 import Component from './BottomTabBar.component';
 import TabButton from './TabButton/TabButton.component';
-import { iPhoneX } from '../../../../utils/platform.utils';
 
 describe('Navigation/Component - BottomTabBar', () => {
   const componentProps = {
@@ -37,13 +35,5 @@ describe('Navigation/Component - BottomTabBar', () => {
     expect(componentProps.navigation.navigate).toBeCalledWith({
       routeName: nextRoute,
     });
-  });
-
-  test('should render in iPhone X', () => {
-    const getModelMock = jest.spyOn(DeviceInfo, 'getModel');
-    getModelMock.mockImplementation(() => iPhoneX);
-    const component = render(componentProps);
-    expect(component).toMatchSnapshot();
-    getModelMock.mockRestore();
   });
 });
