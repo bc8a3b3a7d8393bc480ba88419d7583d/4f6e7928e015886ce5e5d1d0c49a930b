@@ -30,41 +30,57 @@ class BannerItemList extends React.PureComponent {
     );
   };
 
+  renderSectionBackgroundImage = background =>
+    background && (
+      <Image
+        source={{ uri: background }}
+        style={{
+          width: '100%',
+          height: '120%',
+          position: 'absolute',
+        }}
+      />
+    );
+
+  renderHeader = () => {
+    const { title, subTitle, itemStyle } = this.props;
+    const { titleColor, subtitleColor } = itemStyle;
+    return (
+      <BannerHeader
+        title={title}
+        subTitle={subTitle}
+        titleColor={titleColor}
+        subTitleColor={subtitleColor}
+      />
+    );
+  };
+
+  renderList = () => {
+    const { data, itemStyle } = this.props;
+    const { type: sectionType } = itemStyle;
+    return (
+      <FlatList
+        pagingEnabled
+        showsHorizontalScrollIndicator={false}
+        style={[styles.list, setGridStyleIfSectionTypeIsGrid(sectionType)]}
+        horizontal={sectionType !== Constants.SECTION_TYPES.GRID}
+        data={data}
+        renderItem={this.renderItem}
+        keyExtractor={this.keyExtractor}
+      />
+    );
+  };
+
   render() {
-    const { data, title, subTitle, itemStyle } = this.props;
+    const { itemStyle } = this.props;
     const {
-      type: sectionType,
       properties: { background },
-      titleColor,
-      subtitleColor,
     } = itemStyle;
     return (
       <View style={styles.container}>
-        {background && (
-          <Image
-            source={{ uri: background }}
-            style={{
-              width: '100%',
-              height: '120%',
-              position: 'absolute',
-            }}
-          />
-        )}
-        <BannerHeader
-          title={title}
-          subTitle={subTitle}
-          titleColor={titleColor}
-          subTitleColor={subtitleColor}
-        />
-        <FlatList
-          pagingEnabled
-          showsHorizontalScrollIndicator={false}
-          style={[styles.list, setGridStyleIfSectionTypeIsGrid(sectionType)]}
-          horizontal={sectionType !== Constants.SECTION_TYPES.GRID}
-          data={data}
-          renderItem={this.renderItem}
-          keyExtractor={this.keyExtractor}
-        />
+        {this.renderSectionBackgroundImage(background)}
+        {this.renderHeader()}
+        {this.renderList()}
       </View>
     );
   }

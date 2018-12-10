@@ -21,6 +21,21 @@ import Constants from './Constants';
 import { COLORS } from '../../../../themes';
 
 class BannerItem extends React.Component {
+  renderIconImage = iconImage =>
+    iconImage && <Image style={styles.icon} source={{ uri: iconImage }} />;
+
+  renderTitle = (title, titleColor) =>
+    title && (
+      <Text style={[styles.title, setTitleColor(titleColor)]}>{title}</Text>
+    );
+
+  renderVideoIcon = linkType =>
+    linkType === Constants.LINK_TYPES.VIDEO && (
+      <View style={styles.videoIcon}>
+        <Icon name="playcircleo" color={COLORS.white} size={40} />
+      </View>
+    );
+
   render() {
     const { onPress, data, containerStyle, isLastItem, itemStyle } = this.props;
     const {
@@ -47,19 +62,9 @@ class BannerItem extends React.Component {
             style={[styles.image, calculateImageSize(itemStyle, data)]}
             resizeMode={Image.resizeMode.cover}
           >
-            {iconImage && (
-              <Image style={styles.icon} source={{ uri: iconImage }} />
-            )}
-            {title && (
-              <Text style={[styles.title, setTitleColor(titleColor)]}>
-                {title}
-              </Text>
-            )}
-            {linkType === Constants.LINK_TYPES.VIDEO && (
-              <View style={styles.videoIcon}>
-                <Icon name="playcircleo" color={COLORS.white} size={40} />
-              </View>
-            )}
+            {this.renderIconImage(iconImage)}
+            {this.renderTitle(title, titleColor)}
+            {this.renderVideoIcon(linkType)}
           </ImageBackground>
         </View>
       </TouchableWithoutFeedback>
