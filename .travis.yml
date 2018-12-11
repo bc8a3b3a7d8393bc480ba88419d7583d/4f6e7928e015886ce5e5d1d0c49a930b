@@ -7,12 +7,12 @@ os: linux
 
 language: node_js
 node_js:
-  - "10.13.0"
+  - '10.13.0'
 
 cache:
   yarn: true
   directories:
-  - node_modules
+    - node_modules
 
 before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash
@@ -24,12 +24,15 @@ install:
 
 jobs:
   include:
-  - stage: test
-    name: "Lint"
-    script:
-    - yarn lint
+    - stage: test
+      name: 'Lint'
+      script:
+        - yarn lint
 
-  - stage: test
-    name: "Unit test"
-    script:
-      - yarn test:coverage
+    - stage: test
+      name: 'Unit test'
+      script:
+        - yarn test:coverage
+      after_script:
+        - bash <(curl -s https://codecov.io/bash)
+        - CODECLIMATE_API_HOST=CODECLIMATE_API_HOST CODECLIMATE_REPO_TOKEN=CODECLIMATE_REPO_TOKEN codeclimate-test-reporter < coverage/lcov/lcov.info

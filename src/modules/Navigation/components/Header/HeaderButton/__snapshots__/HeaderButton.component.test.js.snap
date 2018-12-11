@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderButton snapshots basic render 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[MockFunction]}
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "height": 40,
+          "justifyContent": "center",
+          "padding": 10,
+          "width": 40,
+        },
+        false,
+      ]
+    }
+  >
+    <Component />
+  </Component>
+</TouchableOpacity>
+`;
+
+exports[`HeaderButton snapshots render right button 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[MockFunction]}
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "height": 40,
+          "justifyContent": "center",
+          "padding": 10,
+          "width": 40,
+        },
+        Object {
+          "alignItems": "flex-end",
+        },
+      ]
+    }
+  >
+    <Component />
+  </Component>
+</TouchableOpacity>
+`;

@@ -66,7 +66,7 @@ describe('Modules/Introduction - Introduction view', () => {
     pressButtonInPageItem(component, 'onPressImIn');
 
     expect(componentProps.navigation.navigate).toBeCalledWith(
-      Routes.Authentication.Landing,
+      Routes.HomeNavigator.Home,
     );
   });
 
@@ -75,7 +75,7 @@ describe('Modules/Introduction - Introduction view', () => {
     component.find('Button').simulate('press');
 
     expect(componentProps.navigation.navigate).toBeCalledWith(
-      Routes.Authentication.Landing,
+      Routes.HomeNavigator.Home,
     );
   });
 });

@@ -1,4 +1,7 @@
+import { Dimensions } from 'react-native';
 import { isIPhoneX } from '../utils/platform.utils';
+
+const { width, height } = Dimensions.get('window');
 
 const metrics = {
   spacing: {
@@ -11,10 +14,19 @@ const metrics = {
     normal: 5,
   },
   statusBarHeight: isIPhoneX() ? 44 : 20,
-  navigationBarHeight: 44,
+  navigation: {
+    buttonSize: 40,
+  },
   button: {
     defaultHeight: 40,
     atBottomScreenHeight: isIPhoneX() ? 60 : 40,
+  },
+  separator: {
+    defaultHeight: 1,
+  },
+  device: {
+    screenWidth: width,
+    screenHeight: height,
   },
 };
 

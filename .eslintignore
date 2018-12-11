@@ -1,0 +1,7 @@
+coverage/
+ios/
+android/
+scripts/
+docs/
+storybook/storyLoader.js
+blueprints/

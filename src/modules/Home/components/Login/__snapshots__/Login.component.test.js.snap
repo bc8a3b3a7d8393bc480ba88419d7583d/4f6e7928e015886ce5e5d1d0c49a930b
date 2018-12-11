@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Home - Login snapshots basic render 1`] = `
+<TouchableWithoutFeedback
+  onPress={[MockFunction]}
+>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "#2B9FDC",
+        "flexDirection": "row",
+        "height": 110,
+        "padding": 15,
+      }
+    }
+  >
+    <Image
+      resizeMode="cover"
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/onboarding/page1.png",
+        }
+      }
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 25,
+          "height": 50,
+          "width": 50,
+        }
+      }
+    />
+    <Component
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 10,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontFamily": "Oswald-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        home.login.title
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontFamily": "Oswald-Regular",
+            "fontSize": 12,
+          }
+        }
+      >
+        home.login.text
+      </Text>
+    </Component>
+  </Component>
+</TouchableWithoutFeedback>
+`;

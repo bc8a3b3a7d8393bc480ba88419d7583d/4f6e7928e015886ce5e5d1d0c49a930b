@@ -34,8 +34,7 @@ class IntroductionView extends Component {
     const {
       navigation: { navigate },
     } = this.props;
-    // TODO: use landing page to test, will update the route to Home
-    navigate(Routes.Authentication.Landing);
+    navigate(Routes.HomeNavigator.Home);
   };
 
   renderSwiper = () => (

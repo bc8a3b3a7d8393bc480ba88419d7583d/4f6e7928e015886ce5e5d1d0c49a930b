@@ -47,7 +47,7 @@ describe('Modules/Landing - Landing View', () => {
       .props()
       .onPress();
     expect(componentProps.navigation.navigate).toBeCalledWith(
-      Routes.Authentication.Introduction,
+      Routes.AuthNavigator.Introduction,
     );
   });
 });

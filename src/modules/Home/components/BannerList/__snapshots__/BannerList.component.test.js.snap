@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Home - BannerList snapshots basic render 1`] = `
+<FlatList
+  data={
+    Array [
+      Object {
+        "attributes": Object {
+          "highlighted": "false",
+          "specialItemBack": "false",
+          "specialItemFront": "false",
+        },
+        "countdown": null,
+        "iconTitle": null,
+        "items": Array [
+          Object {
+            "attributes": Object {
+              "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540785749153-f3fe687a48f52ebc64a754c1b16b4457.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+              "cornerLabelText": null,
+              "iconImage": null,
+              "ribbonText": null,
+              "subtitle": null,
+              "title": null,
+            },
+            "id": "traveloka://flight/search/one_way/0/HAN/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+            "link": "traveloka://flight/search/one_way/0/HAN/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+            "linkType": "DEEPLINK",
+            "style": Object {
+              "properties": Object {
+                "additionalTextColor": "#e91d1d",
+                "subtitleColor": "#8f8f8f",
+                "titleColor": "#1b1b1b",
+              },
+            },
+            "type": "default",
+          },
+          Object {
+            "attributes": Object {
+              "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540783824593-6639dc81ec97d8309915d5b1f475b61f.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+              "cornerLabelText": null,
+              "iconImage": null,
+              "ribbonText": null,
+              "subtitle": null,
+              "title": null,
+            },
+            "id": "traveloka://flight/search/one_way/0/DAD/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+            "link": "traveloka://flight/search/one_way/0/DAD/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+            "linkType": "DEEPLINK",
+            "style": Object {
+              "properties": Object {
+                "additionalTextColor": "#e91d1d",
+                "subtitleColor": "#8f8f8f",
+                "titleColor": "#1b1b1b",
+              },
+            },
+            "type": "default",
+          },
+          Object {
+            "attributes": Object {
+              "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540783692952-6cd5699c5b98cd71d8b7a429cf61e04a.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+              "cornerLabelText": null,
+              "iconImage": null,
+              "ribbonText": null,
+              "subtitle": null,
+              "title": null,
+            },
+            "id": "traveloka://flight/search/one_way/0/SGN/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+            "link": "traveloka://flight/search/one_way/0/SGN/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+            "linkType": "DEEPLINK",
+            "style": Object {
+              "properties": Object {
+                "additionalTextColor": "#e91d1d",
+                "subtitleColor": "#8f8f8f",
+                "titleColor": "#1b1b1b",
+              },
+            },
+            "type": "default",
+          },
+          Object {
+            "attributes": Object {
+              "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540783837164-675f0484bb92a99bbceb95adc07a18df.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+              "cornerLabelText": null,
+              "iconImage": null,
+              "ribbonText": null,
+              "subtitle": null,
+              "title": null,
+            },
+            "id": "traveloka://flight/search/one_way/0/CXR/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+            "link": "traveloka://flight/search/one_way/0/CXR/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+            "linkType": "DEEPLINK",
+            "style": Object {
+              "properties": Object {
+                "additionalTextColor": "#e91d1d",
+                "subtitleColor": "#8f8f8f",
+                "titleColor": "#1b1b1b",
+              },
+            },
+            "type": "default",
+          },
+          Object {
+            "attributes": Object {
+              "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540783844147-113e0093539abc6d9fd9f25ad29c3184.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+              "cornerLabelText": null,
+              "iconImage": null,
+              "ribbonText": null,
+              "subtitle": null,
+              "title": null,
+            },
+            "id": "traveloka://flight/search/one_way/0/BKK/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+            "link": "traveloka://flight/search/one_way/0/BKK/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+            "linkType": "DEEPLINK",
+            "style": Object {
+              "properties": Object {
+                "overlay": true,
+                "subtitleColor": "#000000",
+                "textHorizontalAlignment": "LEFT",
+                "textPlacement": "OUTSIDE",
+                "textVerticalAlignment": "BOTTOM",
+                "titleColor": "#000000",
+                "titleType": "TYPE_1",
+              },
+            },
+            "type": "default",
+          },
+          Object {
+            "attributes": Object {
+              "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540783851606-fb7354fe8012e6431fe43d17a596e873.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+              "cornerLabelText": null,
+              "iconImage": null,
+              "ribbonText": null,
+              "subtitle": null,
+              "title": null,
+            },
+            "id": "traveloka://flight/search/one_way/0/VII/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+            "link": "traveloka://flight/search/one_way/0/VII/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+            "linkType": "DEEPLINK",
+            "style": Object {
+              "properties": Object {
+                "overlay": true,
+                "subtitleColor": "#000000",
+                "textHorizontalAlignment": "LEFT",
+                "textPlacement": "OUTSIDE",
+                "textVerticalAlignment": "BOTTOM",
+                "titleColor": "#000000",
+                "titleType": "TYPE_1",
+              },
+            },
+            "type": "default",
+          },
+          Object {
+            "attributes": Object {
+              "backgroundImage": "https://tvlk.imgix.net/imageResource/2018/10/29/1540783861349-f18e45182731d3c56cbcfb403514e3c3.jpeg?auto=compress%2Cformat&cs=srgb&fm=pjpg&ixlib=java-1.1.12&q=75",
+              "cornerLabelText": null,
+              "iconImage": null,
+              "ribbonText": null,
+              "subtitle": null,
+              "title": null,
+            },
+            "id": "traveloka://flight/search/one_way/0/HPH/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+            "link": "traveloka://flight/search/one_way/0/HPH/02-02-2019/1/0/0?utm_source=mainAppHomePage.mainAppHomePage&utm_medium=IMAGE_CAROUSEL",
+            "linkType": "DEEPLINK",
+            "style": Object {
+              "properties": Object {
+                "overlay": true,
+                "subtitleColor": "#000000",
+                "textHorizontalAlignment": "LEFT",
+                "textPlacement": "OUTSIDE",
+                "textVerticalAlignment": "BOTTOM",
+                "titleColor": "#000000",
+                "titleType": "TYPE_1",
+              },
+            },
+            "type": "default",
+          },
+        ],
+        "link": null,
+        "sectionId": "vi-best-flight-deal",
+        "sectionName": "vi-best-flight-deal",
+        "style": Object {
+          "properties": Object {
+            "ratio": "3:4",
+            "visibleItems": "1.8",
+          },
+          "subtitleColor": "#696969",
+          "titleColor": "#000000",
+          "type": "IMAGE_CAROUSEL",
+        },
+        "subtitle": "Big savings on flights! Book now!",
+        "title": "Fly home for cheap this Tet Holiday",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onEndReachedThreshold={2}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+/>
+`;

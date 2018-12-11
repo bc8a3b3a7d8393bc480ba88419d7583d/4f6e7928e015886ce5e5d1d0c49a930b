@@ -22,6 +22,10 @@ const textStyles = {
     ...baseStyle,
     fontSize: FONTS.SIZE.h4,
   },
+  h5: {
+    ...baseStyle,
+    fontSize: FONTS.SIZE.h5,
+  },
 };
 
 export default textStyles;

@@ -1,3 +1,11 @@
-**/*.*
-!**/*.js
-
+blueprints/
+.eslintignore
+.idea/
+.prettierignore
+.reduxrc
+.codebeatsettings
+android/
+ios/
+**/*.snap
+yarn.lock
+src/assets/images/

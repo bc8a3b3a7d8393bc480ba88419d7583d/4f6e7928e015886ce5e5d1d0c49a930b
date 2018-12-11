@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderBack snapshots basic render 1`] = `
+<withNavigation(HeaderButton)
+  onPress={[MockFunction]}
+>
+  <Icon
+    allowFontScaling={false}
+    color="white"
+    name="arrow-left"
+    size={12}
+  />
+</withNavigation(HeaderButton)>
+`;

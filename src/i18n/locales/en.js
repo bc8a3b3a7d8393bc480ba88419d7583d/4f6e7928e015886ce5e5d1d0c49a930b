@@ -1,5 +1,6 @@
 /* eslint-disable max-lines */
 export default {
+  /* --------------------- START SCREEN --------------------- */
   landing: {
     header: {
       welcome: 'Hello! Welcome to {{appName}}',
@@ -56,4 +57,38 @@ export default {
       },
     },
   },
+  home: {
+    login: {
+      title: 'Log In or Register',
+      text: 'Entry your Traveloka member benefits',
+    },
+    bookingMenu: {
+      flights: 'Flights',
+      hotels: 'Hotels',
+      attractionsAndActivities: 'Acttractions & Activities',
+      airportTransport: 'Airport Transport',
+      flightStatus: 'Filght Status',
+      priceAlerts: 'Price Alerts',
+      myPoints: 'My Points',
+    },
+  },
+
+  /* --------------------- END SCREEN --------------------- */
+
+  /* --------------------- START COMMON --------------------- */
+
+  navigation: {
+    mainTabNavigator: {
+      home: 'Home',
+      saved: 'Saved',
+      myBooking: 'My Booking',
+      myInbox: 'My Inbox',
+      myAccount: 'My Account',
+    },
+    homeNavigator: {
+      home: 'Home',
+    },
+  },
+
+  /* --------------------- END COMMON --------------------- */
 };
