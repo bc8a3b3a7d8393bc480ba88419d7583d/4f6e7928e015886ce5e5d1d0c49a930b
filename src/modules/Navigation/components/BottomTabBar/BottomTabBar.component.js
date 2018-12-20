@@ -6,6 +6,8 @@ import TabButton from './TabButton/TabButton.component';
 import styles from './BottomTabBar.component.styles';
 
 import TabRoutes from './BottomTabBar.data';
+import { getCurrentRoute } from '../../Navigation.selector';
+import { showShowTabBarWithRoute } from './BottomTabBar.config';
 
 class BottomTabBar extends PureComponent {
   constructor(props) {
@@ -43,6 +45,10 @@ class BottomTabBar extends PureComponent {
   };
 
   render() {
+    const { navigation } = this.props;
+    const currentRoute = getCurrentRoute(navigation);
+    if (!showShowTabBarWithRoute(currentRoute)) return <View />;
+
     return (
       <View style={styles.container}>
         {TabRoutes.map(this.renderTabBarItem)}

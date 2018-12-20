@@ -72,6 +72,23 @@ export default {
       myPoints: 'My Points',
     },
   },
+  flightBooking: {
+    footer: {
+      searchButton: 'Search',
+    },
+    content: {
+      from: 'From',
+      to: 'To',
+      departureDate: 'Departure Date',
+      returnDate: 'Return Date',
+      passengers: 'Passengers (Adult, Child or Infant)',
+      adult: 'Adult',
+      child: 'Child',
+      infant: 'Infant',
+      seatClass: 'Seat Class',
+      roundTrip: 'Round-trip?',
+    },
+  },
 
   /* --------------------- END SCREEN --------------------- */
 
@@ -87,6 +104,7 @@ export default {
     },
     homeNavigator: {
       home: 'Home',
+      flightBooking: 'Search Flights',
     },
   },
 

@@ -2,6 +2,7 @@ blueprints/
 .eslintignore
 .idea/
 .prettierignore
+.gitignore
 .reduxrc
 .codebeatsettings
 android/

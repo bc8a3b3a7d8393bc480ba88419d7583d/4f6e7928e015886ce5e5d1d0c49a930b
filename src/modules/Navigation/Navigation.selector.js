@@ -19,4 +19,4 @@ const getCurrentRoute = nav => {
   return tmpNav;
 };
 
-export { getRoutes as default, getCurrentRoute };
+export { getRoutes, getCurrentRoute };

@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withNavigation } from 'react-navigation';
+import Icon from 'react-native-vector-icons/Ionicons';
 
-import IconSet from '../../../../../components/Icon/Icon.component';
 import COLORS from '../../../../../themes/colors';
 import HeaderButtonWrapper from '../HeaderButton/HeaderButton.component';
 
 const HeaderBack = ({ navigation: { goBack } }) => (
   <HeaderButtonWrapper onPress={goBack}>
-    <IconSet name="arrow-left" color={COLORS.white} />
+    <Icon name="ios-arrow-round-back" color={COLORS.white} size={30} />
   </HeaderButtonWrapper>
 );
 

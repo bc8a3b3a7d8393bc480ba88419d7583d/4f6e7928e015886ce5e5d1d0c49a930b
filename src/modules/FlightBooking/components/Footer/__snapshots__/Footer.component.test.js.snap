@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Landing - Footer snapshots basic render 1`] = `
+<Button
+  containerStyle={
+    Object {
+      "backgroundColor": "#DB6C1A",
+      "borderRadius": 5,
+      "height": 40,
+      "marginHorizontal": 15,
+    }
+  }
+  onPress={[MockFunction]}
+  title="flightBooking.footer.searchButton"
+  titleStyle={
+    Object {
+      "color": "white",
+    }
+  }
+/>
+`;

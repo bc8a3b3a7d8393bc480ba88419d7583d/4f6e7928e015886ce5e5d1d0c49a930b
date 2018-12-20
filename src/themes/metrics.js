@@ -22,7 +22,7 @@ const metrics = {
     atBottomScreenHeight: isIPhoneX() ? 60 : 40,
   },
   separator: {
-    defaultHeight: 1,
+    defaultHeight: 0.5,
   },
   device: {
     screenWidth: width,

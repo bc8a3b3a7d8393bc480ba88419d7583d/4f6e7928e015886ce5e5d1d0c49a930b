@@ -1,6 +1,7 @@
 import Landing from '../Landing/Landing.screen';
 import Introduction from '../Introduction/Introduction.screen';
 import Home from '../Home/Home.screen';
+import FlightBooking from '../FlightBooking/FlightBooking.screen';
 
 const Screens = {
   Landing: {
@@ -11,6 +12,9 @@ const Screens = {
   },
   Home: {
     screen: Home,
+  },
+  FlightBooking: {
+    screen: FlightBooking,
   },
 };
 

@@ -17,6 +17,7 @@ const Routes = keyMirror({
   },
   HomeNavigator: {
     Home: null,
+    FlightBooking: null,
   },
 });
 

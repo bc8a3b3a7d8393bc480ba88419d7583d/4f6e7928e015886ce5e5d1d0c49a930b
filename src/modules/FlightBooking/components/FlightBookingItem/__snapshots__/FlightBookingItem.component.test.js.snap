@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules/Landing - FlightBookingItem snapshots basic render 1`] = `
+<TouchableWithoutFeedback
+  onPress={[MockFunction]}
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "padding": 10,
+      }
+    }
+  >
+    <Icon
+      allowFontScaling={false}
+      color="#8f8f8f"
+      size={20}
+    />
+    <Component
+      style={
+        Object {
+          "borderBottomColor": "#8f8f8f",
+          "borderBottomWidth": 0.5,
+          "flex": 1,
+          "marginLeft": 10,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#8f8f8f",
+            "fontFamily": "Oswald-Regular",
+            "fontSize": 10,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+            "fontFamily": "Oswald-Regular",
+            "fontSize": 12,
+            "marginBottom": 5,
+          }
+        }
+      />
+    </Component>
+  </Component>
+</TouchableWithoutFeedback>
+`;
