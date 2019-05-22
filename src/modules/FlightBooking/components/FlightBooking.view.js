@@ -33,8 +33,27 @@ class FlightBookingView extends Component {
       returnDate: moment().valueOf(),
       passengers: { adult: 1, child: 0, infant: 0 },
       seatClass: 'Economy',
+      roundTrip: false,
     };
   }
+
+  onSwapAirport = () => {
+    this.setState(state => {
+      const { fromCity, fromAirport, toCity, toAirport } = state;
+      return {
+        fromCity: toCity,
+        fromAirport: toAirport,
+        toCity: fromCity,
+        toAirport: fromAirport,
+      };
+    });
+  };
+
+  onSetRoundTrip = value => {
+    this.setState({
+      roundTrip: value,
+    });
+  };
 
   onSearchFlights = () => {};
 
@@ -46,7 +65,7 @@ class FlightBookingView extends Component {
         {this.renderFromItem()}
         {this.renderTotem()}
       </View>
-      <TouchableWithoutFeedback>
+      <TouchableWithoutFeedback onPress={this.onSwapAirport}>
         <View style={styles.rightColumn}>
           <View style={styles.rightColumnIcon}>
             <IconSet name="check" size={20} color={COLORS.white} />
@@ -82,18 +101,25 @@ class FlightBookingView extends Component {
     );
   };
 
-  renderDateItem = () => (
-    <View style={styles.section}>
-      <View style={styles.leftColumn}>
-        {this.renderDepartureDateItem()}
-        {this.renderReturnDateItem()}
+  renderDateItem = () => {
+    const { roundTrip } = this.state;
+    return (
+      <View style={styles.section}>
+        <View style={styles.leftColumn}>
+          {this.renderDepartureDateItem()}
+          {this.renderReturnDateItem()}
+        </View>
+        <View style={styles.rightColumn}>
+          <Text style={styles.roundTripTitle}>{i18n('roundTrip')}</Text>
+          <Switch
+            onTintColor={COLORS.darkBlue}
+            value={roundTrip}
+            onValueChange={this.onSetRoundTrip}
+          />
+        </View>
       </View>
-      <View style={styles.rightColumn}>
-        <Text style={styles.roundTripTitle}>{i18n('roundTrip')}</Text>
-        <Switch onTintColor={COLORS.darkBlue} />
-      </View>
-    </View>
-  );
+    );
+  };
 
   renderDepartureDateItem = () => {
     const { departureDate } = this.state;
@@ -145,12 +171,11 @@ class FlightBookingView extends Component {
 
   renderSeatClassItem = () => {
     const { seatClass } = this.state;
-    const value = seatClass;
     return (
       <FlightBookingItem
         onPress={this.onSelectAirport}
         title={i18n('seatClass')}
-        value={value}
+        value={seatClass}
         icon="check"
       />
     );

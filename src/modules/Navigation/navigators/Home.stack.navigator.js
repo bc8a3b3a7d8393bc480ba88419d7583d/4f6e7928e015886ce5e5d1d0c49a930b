@@ -10,9 +10,10 @@ const HomeNavigator = createStackNavigator(
   {
     [HomeRoutes.Home]: Screens.Home,
     [HomeRoutes.FlightBooking]: Screens.FlightBooking,
+    [HomeRoutes.AirportList]: Screens.AirportList,
   },
   {
-    initialRouteName: HomeRoutes.FlightBooking,
+    initialRouteName: HomeRoutes.AirportList,
     defaultNavigationOptions: stackOptions(),
   },
 );

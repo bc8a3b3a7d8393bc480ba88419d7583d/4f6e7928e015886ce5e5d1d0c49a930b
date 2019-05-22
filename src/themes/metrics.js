@@ -16,6 +16,7 @@ const metrics = {
   statusBarHeight: isIPhoneX() ? 44 : 20,
   navigation: {
     buttonSize: 40,
+    height: 44,
   },
   button: {
     defaultHeight: 40,
