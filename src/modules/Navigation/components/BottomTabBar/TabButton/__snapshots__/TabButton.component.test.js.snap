@@ -12,7 +12,7 @@ exports[`Navigation/Component - TabButton snapshots should render default state 
   }
   testID=""
 >
-  <Component
+  <View
     style={
       Object {
         "alignItems": "center",
@@ -35,9 +35,6 @@ exports[`Navigation/Component - TabButton snapshots should render default state 
       }
     />
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Array [
           Object {
@@ -51,7 +48,7 @@ exports[`Navigation/Component - TabButton snapshots should render default state 
     >
       Tab Button
     </Text>
-  </Component>
+  </View>
 </TouchableWithoutFeedback>
 `;
 
@@ -67,7 +64,7 @@ exports[`Navigation/Component - TabButton snapshots should render with selected 
   }
   testID=""
 >
-  <Component
+  <View
     style={
       Object {
         "alignItems": "center",
@@ -90,9 +87,6 @@ exports[`Navigation/Component - TabButton snapshots should render with selected 
       }
     />
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Array [
           Object {
@@ -108,6 +102,6 @@ exports[`Navigation/Component - TabButton snapshots should render with selected 
     >
       Tab Button
     </Text>
-  </Component>
+  </View>
 </TouchableWithoutFeedback>
 `;

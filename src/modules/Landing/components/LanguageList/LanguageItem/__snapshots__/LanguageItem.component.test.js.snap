@@ -4,7 +4,7 @@ exports[`Modules/Landing - Language Item snapshots should render component when 
 <TouchableWithoutFeedback
   onPress={[Function]}
 >
-  <Component
+  <View
     style={
       Array [
         Object {
@@ -35,9 +35,6 @@ exports[`Modules/Landing - Language Item snapshots should render component when 
       }
     />
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Array [
           Object {
@@ -54,8 +51,8 @@ exports[`Modules/Landing - Language Item snapshots should render component when 
     >
       Việt Nam (Tiếng Việt)
     </Text>
-    <Component />
-  </Component>
+    <View />
+  </View>
 </TouchableWithoutFeedback>
 `;
 
@@ -63,7 +60,7 @@ exports[`Modules/Landing - Language Item snapshots should render component when 
 <TouchableWithoutFeedback
   onPress={[Function]}
 >
-  <Component
+  <View
     style={
       Array [
         Object {
@@ -94,9 +91,6 @@ exports[`Modules/Landing - Language Item snapshots should render component when 
       }
     />
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Array [
           Object {
@@ -113,7 +107,7 @@ exports[`Modules/Landing - Language Item snapshots should render component when 
     >
       Việt Nam (Tiếng Việt)
     </Text>
-    <Component
+    <View
       style={
         Object {
           "alignItems": "center",
@@ -131,7 +125,7 @@ exports[`Modules/Landing - Language Item snapshots should render component when 
         name="check"
         size={12}
       />
-    </Component>
-  </Component>
+    </View>
+  </View>
 </TouchableWithoutFeedback>
 `;

@@ -4,7 +4,7 @@ exports[`Modules/Home - BannerItem check render grid item 1`] = `
 <TouchableWithoutFeedback
   onPress={[MockFunction]}
 >
-  <Component
+  <View
     style={
       Array [
         Object {
@@ -42,7 +42,7 @@ exports[`Modules/Home - BannerItem check render grid item 1`] = `
         ]
       }
     />
-  </Component>
+  </View>
 </TouchableWithoutFeedback>
 `;
 
@@ -50,7 +50,7 @@ exports[`Modules/Home - BannerItem snapshots basic render 1`] = `
 <TouchableWithoutFeedback
   onPress={[MockFunction]}
 >
-  <Component
+  <View
     style={
       Array [
         Object {
@@ -102,9 +102,6 @@ exports[`Modules/Home - BannerItem snapshots basic render 1`] = `
         }
       />
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Array [
             Object {
@@ -124,7 +121,7 @@ exports[`Modules/Home - BannerItem snapshots basic render 1`] = `
       >
         See All Promos
       </Text>
-      <Component
+      <View
         style={
           Object {
             "alignItems": "center",
@@ -143,9 +140,9 @@ exports[`Modules/Home - BannerItem snapshots basic render 1`] = `
           name="playcircleo"
           size={40}
         />
-      </Component>
+      </View>
     </ImageBackground>
-  </Component>
+  </View>
 </TouchableWithoutFeedback>
 `;
 
@@ -153,7 +150,7 @@ exports[`Modules/Home - BannerItem snapshots default number of column is 1 1`] =
 <TouchableWithoutFeedback
   onPress={[MockFunction]}
 >
-  <Component
+  <View
     style={
       Array [
         Object {
@@ -209,9 +206,6 @@ exports[`Modules/Home - BannerItem snapshots default number of column is 1 1`] =
         }
       />
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Array [
             Object {
@@ -231,7 +225,7 @@ exports[`Modules/Home - BannerItem snapshots default number of column is 1 1`] =
       >
         See All Promos
       </Text>
-      <Component
+      <View
         style={
           Object {
             "alignItems": "center",
@@ -250,9 +244,9 @@ exports[`Modules/Home - BannerItem snapshots default number of column is 1 1`] =
           name="playcircleo"
           size={40}
         />
-      </Component>
+      </View>
     </ImageBackground>
-  </Component>
+  </View>
 </TouchableWithoutFeedback>
 `;
 
@@ -260,7 +254,7 @@ exports[`Modules/Home - BannerItem snapshots should render full banner section 1
 <TouchableWithoutFeedback
   onPress={[MockFunction]}
 >
-  <Component
+  <View
     style={
       Array [
         Object {
@@ -312,9 +306,6 @@ exports[`Modules/Home - BannerItem snapshots should render full banner section 1
         }
       />
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Array [
             Object {
@@ -334,7 +325,7 @@ exports[`Modules/Home - BannerItem snapshots should render full banner section 1
       >
         See All Promos
       </Text>
-      <Component
+      <View
         style={
           Object {
             "alignItems": "center",
@@ -353,8 +344,8 @@ exports[`Modules/Home - BannerItem snapshots should render full banner section 1
           name="playcircleo"
           size={40}
         />
-      </Component>
+      </View>
     </ImageBackground>
-  </Component>
+  </View>
 </TouchableWithoutFeedback>
 `;

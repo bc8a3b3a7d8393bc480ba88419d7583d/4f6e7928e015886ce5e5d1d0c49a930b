@@ -17,6 +17,10 @@ import IconSet from '../../../../../components/Icon/Icon.component';
 import { COLORS } from '../../../../../themes';
 
 class LanguageItem extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   onPressItem = () => {
     const {
       onPress,

@@ -10,7 +10,7 @@ exports[`Modules/Landing - Landing View snapshots basic render 1`] = `
   }
   testID="landing-screen-view"
 >
-  <ScrollView
+  <ScrollViewMock
     contentContainerStyle={
       Object {
         "padding": 10,
@@ -28,7 +28,7 @@ exports[`Modules/Landing - Landing View snapshots basic render 1`] = `
       languageCode="vi"
       onSelectLanguage={[Function]}
     />
-  </ScrollView>
+  </ScrollViewMock>
   <Footer
     onPress={[Function]}
   />

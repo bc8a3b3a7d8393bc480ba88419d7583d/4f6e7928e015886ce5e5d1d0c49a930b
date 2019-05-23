@@ -108,7 +108,7 @@ exports[`Modules/Introduction - Introduction view should render page item withou
       onPress={[Function]}
     />
   </Swiper>
-  <Component
+  <View
     style={
       Object {
         "backgroundColor": "white",
@@ -125,7 +125,7 @@ exports[`Modules/Introduction - Introduction view should render page item withou
       title="onboarding.button.skip"
       titleStyle={Object {}}
     />
-  </Component>
+  </View>
 </ScreenView>
 `;
 
@@ -237,7 +237,7 @@ exports[`Modules/Introduction - Introduction view snapshots basic render 1`] = `
       onPress={[Function]}
     />
   </Swiper>
-  <Component
+  <View
     style={
       Object {
         "backgroundColor": "white",
@@ -254,6 +254,6 @@ exports[`Modules/Introduction - Introduction view snapshots basic render 1`] = `
       title="onboarding.button.skip"
       titleStyle={Object {}}
     />
-  </Component>
+  </View>
 </ScreenView>
 `;

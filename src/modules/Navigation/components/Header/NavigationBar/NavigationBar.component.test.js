@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 import { testSnapshots } from '../../../../../utils/test.utils';
 
-import { NavigationBar } from './NavigationBar.component';
+import NavigationBar from './NavigationBar.component';
 
 const props = {
   navigation: {

@@ -4,7 +4,7 @@ exports[`Modules/Landing - FlightBookingItem snapshots basic render 1`] = `
 <TouchableWithoutFeedback
   onPress={[MockFunction]}
 >
-  <Component
+  <View
     style={
       Object {
         "alignItems": "center",
@@ -16,9 +16,10 @@ exports[`Modules/Landing - FlightBookingItem snapshots basic render 1`] = `
     <Icon
       allowFontScaling={false}
       color="#8f8f8f"
+      name="icon"
       size={20}
     />
-    <Component
+    <View
       style={
         Object {
           "borderBottomColor": "#8f8f8f",
@@ -29,9 +30,6 @@ exports[`Modules/Landing - FlightBookingItem snapshots basic render 1`] = `
       }
     >
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Object {
             "color": "#8f8f8f",
@@ -39,11 +37,10 @@ exports[`Modules/Landing - FlightBookingItem snapshots basic render 1`] = `
             "fontSize": 10,
           }
         }
-      />
+      >
+        title
+      </Text>
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Object {
             "color": "black",
@@ -52,8 +49,10 @@ exports[`Modules/Landing - FlightBookingItem snapshots basic render 1`] = `
             "marginBottom": 5,
           }
         }
-      />
-    </Component>
-  </Component>
+      >
+        value
+      </Text>
+    </View>
+  </View>
 </TouchableWithoutFeedback>
 `;

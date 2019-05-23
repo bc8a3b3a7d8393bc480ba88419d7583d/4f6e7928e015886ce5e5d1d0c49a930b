@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationBar snapshots basic render 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#2B9FDC",
+      },
+      Object {},
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 20,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "height": 44,
+      }
+    }
+  >
+    <View />
+  </View>
+</View>
+`;
+
+exports[`NavigationBar snapshots render right button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#2B9FDC",
+      },
+      Object {},
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 20,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "height": 44,
+      }
+    }
+  >
+    <View />
+  </View>
+</View>
+`;

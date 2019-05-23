@@ -11,6 +11,10 @@ import LanguageItem from './LanguageItem/LanguageItem.component';
 const i18n = translateWithNamespace('landing.content');
 
 class LanguageList extends PureComponent {
+  constructor(props) {
+    super(props);
+  }
+
   renderLanguageItem = item => {
     const { onSelectLanguage } = this.props;
     const { languageCode, languageName, countryCode, countryName } = item;

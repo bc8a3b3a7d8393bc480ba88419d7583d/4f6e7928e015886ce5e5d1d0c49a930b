@@ -15,7 +15,7 @@ const Login = ({ onPress }) => (
       <Image
         source={OnBoardingImages.page1}
         style={styles.avatar}
-        resizeMode={Image.resizeMode.cover}
+        resizeMode="cover"
       />
       <View style={styles.rightColumn}>
         <Text style={styles.title}>{i18n('title')}</Text>

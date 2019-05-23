@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Modules/Home - BannerHeader snapshots basic render 1`] = `
-<Component
+<View
   style={
     Object {
       "paddingBottom": 10,
@@ -10,9 +10,6 @@ exports[`Modules/Home - BannerHeader snapshots basic render 1`] = `
   }
 >
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Array [
         Object {
@@ -29,9 +26,6 @@ exports[`Modules/Home - BannerHeader snapshots basic render 1`] = `
     Flights
   </Text>
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Array [
         Object {
@@ -47,5 +41,5 @@ exports[`Modules/Home - BannerHeader snapshots basic render 1`] = `
   >
     flight flight
   </Text>
-</Component>
+</View>
 `;

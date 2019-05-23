@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Modules/Home - BannerItemList render grid list 1`] = `
-<Component
+<View
   style={
     Object {
       "overflow": "hidden",
@@ -53,6 +53,7 @@ exports[`Modules/Home - BannerItemList render grid list 1`] = `
     numColumns={1}
     onEndReachedThreshold={2}
     pagingEnabled={true}
+    removeClippedSubviews={false}
     renderItem={[Function]}
     scrollEventThrottle={50}
     showsHorizontalScrollIndicator={false}
@@ -71,11 +72,11 @@ exports[`Modules/Home - BannerItemList render grid list 1`] = `
     updateCellsBatchingPeriod={50}
     windowSize={21}
   />
-</Component>
+</View>
 `;
 
 exports[`Modules/Home - BannerItemList snapshots basic render 1`] = `
-<Component
+<View
   style={
     Object {
       "overflow": "hidden",
@@ -137,6 +138,7 @@ exports[`Modules/Home - BannerItemList snapshots basic render 1`] = `
     numColumns={1}
     onEndReachedThreshold={2}
     pagingEnabled={true}
+    removeClippedSubviews={false}
     renderItem={[Function]}
     scrollEventThrottle={50}
     showsHorizontalScrollIndicator={false}
@@ -152,5 +154,5 @@ exports[`Modules/Home - BannerItemList snapshots basic render 1`] = `
     updateCellsBatchingPeriod={50}
     windowSize={21}
   />
-</Component>
+</View>
 `;

@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Modules/Home - BannerItemList snapshots basic render 1`] = `
-<Component
+<View
   style={
     Object {
       "flex": 1,
     }
   }
 >
-  <ScrollView
+  <ScrollViewMock
     onScroll={[Function]}
     scrollEventThrottle={16}
   >
@@ -928,7 +928,7 @@ exports[`Modules/Home - BannerItemList snapshots basic render 1`] = `
         ]
       }
     />
-  </ScrollView>
+  </ScrollViewMock>
   <BookingMenuShortcut />
-</Component>
+</View>
 `;

@@ -17,6 +17,10 @@ import ScreenView from '../../../components/ScreenView/ScreenView.component';
 import { Routes } from '../../Navigation/Navigation.constant';
 
 class IntroductionView extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   onPressTurnOnNotification = () => {
     PushNotification.requestPermissions();
   };

@@ -16,7 +16,7 @@ const IntroductionPage = ({
     <Image
       source={OnBoardingImages[image]}
       style={styles.image}
-      resizeMode={Image.resizeMode.contain}
+      resizeMode="contain"
     />
     <Text style={styles.title}>{title}</Text>
     <Text style={styles.text}>{text}</Text>

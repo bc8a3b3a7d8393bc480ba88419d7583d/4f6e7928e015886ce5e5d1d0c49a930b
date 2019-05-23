@@ -27,7 +27,7 @@ exports[`Modules/Home - BookingMenuShortcut snapshots basic render 1`] = `
     ]
   }
 >
-  <Component
+  <View
     key="home.bookingMenu.flights"
     style={
       Object {
@@ -50,8 +50,8 @@ exports[`Modules/Home - BookingMenuShortcut snapshots basic render 1`] = `
         }
       }
     />
-  </Component>
-  <Component
+  </View>
+  <View
     key="home.bookingMenu.hotels"
     style={
       Object {
@@ -74,8 +74,8 @@ exports[`Modules/Home - BookingMenuShortcut snapshots basic render 1`] = `
         }
       }
     />
-  </Component>
-  <Component
+  </View>
+  <View
     key="home.bookingMenu.attractionsAndActivities"
     style={
       Object {
@@ -98,8 +98,8 @@ exports[`Modules/Home - BookingMenuShortcut snapshots basic render 1`] = `
         }
       }
     />
-  </Component>
-  <Component
+  </View>
+  <View
     key="home.bookingMenu.airportTransport"
     style={
       Object {
@@ -122,6 +122,6 @@ exports[`Modules/Home - BookingMenuShortcut snapshots basic render 1`] = `
         }
       }
     />
-  </Component>
+  </View>
 </AnimatedComponent>
 `;

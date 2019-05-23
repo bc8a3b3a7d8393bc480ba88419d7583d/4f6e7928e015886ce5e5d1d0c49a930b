@@ -8,6 +8,9 @@ describe('Modules/Landing - FlightBookingItem', () => {
       description: 'basic render',
       props: {
         onPress: jest.fn(),
+        title: 'title',
+        value: 'value',
+        icon: 'icon',
       },
     },
   ]);

@@ -5,7 +5,7 @@ exports[`Component - Button snapshots basic render 1`] = `
   activeOpacity={0.2}
   onPress={[MockFunction]}
 >
-  <Component
+  <View
     style={
       Array [
         Object {
@@ -19,9 +19,6 @@ exports[`Component - Button snapshots basic render 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Array [
           Object {
@@ -35,6 +32,6 @@ exports[`Component - Button snapshots basic render 1`] = `
     >
       Button
     </Text>
-  </Component>
+  </View>
 </TouchableOpacity>
 `;

@@ -5,6 +5,10 @@ import PropTypes from 'prop-types';
 import BannerItemList from './BannerItemList.component';
 
 class BannerList extends React.PureComponent {
+  constructor(props) {
+    super(props);
+  }
+
   keyExtractor = item => item.sectionId;
 
   renderItem = ({ item }) => {

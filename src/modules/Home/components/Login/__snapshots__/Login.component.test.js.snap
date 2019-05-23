@@ -4,7 +4,7 @@ exports[`Modules/Home - Login snapshots basic render 1`] = `
 <TouchableWithoutFeedback
   onPress={[MockFunction]}
 >
-  <Component
+  <View
     style={
       Object {
         "backgroundColor": "#2B9FDC",
@@ -30,7 +30,7 @@ exports[`Modules/Home - Login snapshots basic render 1`] = `
         }
       }
     />
-    <Component
+    <View
       style={
         Object {
           "flex": 1,
@@ -39,9 +39,6 @@ exports[`Modules/Home - Login snapshots basic render 1`] = `
       }
     >
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Object {
             "color": "white",
@@ -53,9 +50,6 @@ exports[`Modules/Home - Login snapshots basic render 1`] = `
         home.login.title
       </Text>
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Object {
             "color": "white",
@@ -66,7 +60,7 @@ exports[`Modules/Home - Login snapshots basic render 1`] = `
       >
         home.login.text
       </Text>
-    </Component>
-  </Component>
+    </View>
+  </View>
 </TouchableWithoutFeedback>
 `;

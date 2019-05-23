@@ -5,7 +5,7 @@ exports[`HeaderButton snapshots basic render 1`] = `
   activeOpacity={0.2}
   onPress={[MockFunction]}
 >
-  <Component
+  <View
     style={
       Array [
         Object {
@@ -18,8 +18,8 @@ exports[`HeaderButton snapshots basic render 1`] = `
       ]
     }
   >
-    <Component />
-  </Component>
+    <View />
+  </View>
 </TouchableOpacity>
 `;
 
@@ -28,7 +28,7 @@ exports[`HeaderButton snapshots render right button 1`] = `
   activeOpacity={0.2}
   onPress={[MockFunction]}
 >
-  <Component
+  <View
     style={
       Array [
         Object {
@@ -43,7 +43,7 @@ exports[`HeaderButton snapshots render right button 1`] = `
       ]
     }
   >
-    <Component />
-  </Component>
+    <View />
+  </View>
 </TouchableOpacity>
 `;

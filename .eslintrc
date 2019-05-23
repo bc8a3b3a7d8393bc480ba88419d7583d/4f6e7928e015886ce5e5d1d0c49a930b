@@ -29,7 +29,8 @@
           "**/*.steps.js"
         ]
       }
-    ]
+    ],
+    "no-useless-constructor": "warn"
   },
   "env": {
     "jest": true

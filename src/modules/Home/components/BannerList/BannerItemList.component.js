@@ -11,6 +11,10 @@ import styles, {
 import Constants from './Constants';
 
 class BannerItemList extends React.PureComponent {
+  constructor(props) {
+    super(props);
+  }
+
   onPress = () => {};
 
   keyExtractor = item => item.id;

@@ -1,11 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Modules/Landing - Language List snapshots basic render 1`] = `
-<Component>
+<View>
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Object {
         "color": "white",
@@ -143,5 +140,5 @@ exports[`Modules/Landing - Language List snapshots basic render 1`] = `
     onPress={[MockFunction]}
     selected={false}
   />
-</Component>
+</View>
 `;

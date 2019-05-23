@@ -13,6 +13,10 @@ import LanguageList from '../LanguageList/LanguageList.component';
 import Footer from '../../../FlightBooking/components/Footer/Footer.component';
 
 class LandingView extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   /*
     Parameters:
       languageObj = {

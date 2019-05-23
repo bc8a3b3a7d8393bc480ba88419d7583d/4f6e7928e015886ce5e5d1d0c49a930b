@@ -21,6 +21,10 @@ import Constants from './Constants';
 import { COLORS } from '../../../../themes';
 
 class BannerItem extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   renderIconImage = iconImage =>
     iconImage && <Image style={styles.icon} source={{ uri: iconImage }} />;
 
@@ -60,7 +64,7 @@ class BannerItem extends React.Component {
           <ImageBackground
             source={{ uri: backgroundImage }}
             style={[styles.image, calculateImageSize(itemStyle, data)]}
-            resizeMode={Image.resizeMode.cover}
+            resizeMode="cover"
           >
             {this.renderIconImage(iconImage)}
             {this.renderTitle(title, titleColor)}

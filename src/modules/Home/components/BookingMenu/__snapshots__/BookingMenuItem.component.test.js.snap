@@ -4,7 +4,7 @@ exports[`Modules/Home - BookingMenuItem snapshots basic render 1`] = `
 <TouchableWithoutFeedback
   onPress={[MockFunction]}
 >
-  <Component
+  <View
     style={
       Object {
         "alignItems": "center",
@@ -44,9 +44,6 @@ exports[`Modules/Home - BookingMenuItem snapshots basic render 1`] = `
       }
     />
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "black",
@@ -57,6 +54,6 @@ exports[`Modules/Home - BookingMenuItem snapshots basic render 1`] = `
     >
       Flights
     </Text>
-  </Component>
+  </View>
 </TouchableWithoutFeedback>
 `;

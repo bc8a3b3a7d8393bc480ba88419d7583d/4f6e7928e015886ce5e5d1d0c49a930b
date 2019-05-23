@@ -6,6 +6,10 @@ import styles from './TabButton.component.styles';
 import { NavigationImages } from '../../../../../assets/images';
 
 class TabButton extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   onPress = () => {
     const { onPress, route } = this.props;
     onPress(route);

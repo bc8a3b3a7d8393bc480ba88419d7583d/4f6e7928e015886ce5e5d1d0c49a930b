@@ -12,7 +12,7 @@ const BookingMenuItem = ({ image, title, onPress }) => (
       <Image
         source={HomeImages[image]}
         style={styles.image}
-        resizeMode={Image.resizeMode.cover}
+        resizeMode="cover"
       />
       <Text style={styles.title}>{title}</Text>
     </View>
