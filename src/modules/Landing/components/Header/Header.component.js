@@ -17,7 +17,7 @@ const Header = ({ languageName, languageCode, countryCode, countryName }) => (
     <Image
       style={styles.logo}
       source={AppImages.logoWhite}
-      resizeMode={Image.resizeMode.contain}
+      resizeMode="contain"
     />
 
     {/* welcome text */}

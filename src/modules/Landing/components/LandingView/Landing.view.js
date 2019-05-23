@@ -3,10 +3,14 @@ import { ScrollView } from 'react-native';
 import PropTypes from 'prop-types';
 
 import styles from './Landing.view.styles';
-import { Header, LanguageList, Footer } from '../index';
-import ScreenView from '../../../../components/ScreenView/ScreenView.component';
-import { Routes } from '../../../Navigation/Navigation.constant';
+
 import Constants from '../../../../constants';
+import { Routes } from '../../../Navigation/Navigation.constant';
+
+import ScreenView from '../../../../components/ScreenView/ScreenView.component';
+import Header from '../Header/Header.component';
+import LanguageList from '../LanguageList/LanguageList.component';
+import Footer from '../../../FlightBooking/components/Footer/Footer.component';
 
 class LandingView extends Component {
   /*

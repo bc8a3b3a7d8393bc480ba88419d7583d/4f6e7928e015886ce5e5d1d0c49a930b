@@ -1,5 +1,7 @@
-export { default as COLORS } from './colors';
-export { default as FONTS } from './fonts';
-export { default as MAIN_THEME } from './theme';
-export { default as METRICS } from './metrics';
-export { default as TEXT_STYLES } from './textStyles';
+import COLORS from './colors';
+import FONTS from './fonts';
+import MAIN_THEME from './theme';
+import METRICS from './metrics';
+import TEXT_STYLES from './textStyles';
+
+export { COLORS, FONTS, MAIN_THEME, METRICS, TEXT_STYLES };

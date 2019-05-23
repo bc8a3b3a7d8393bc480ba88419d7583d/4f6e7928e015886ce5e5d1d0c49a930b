@@ -1,4 +1,5 @@
-import { COLORS, FONTS } from './index';
+import COLORS from './colors';
+import FONTS from './fonts';
 
 const baseStyle = {
   fontFamily: FONTS.FAMILY.Oswald.Regular,

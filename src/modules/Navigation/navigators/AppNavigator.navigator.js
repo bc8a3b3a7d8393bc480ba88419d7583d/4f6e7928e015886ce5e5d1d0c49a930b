@@ -13,7 +13,7 @@ const AppNavigator = createSwitchNavigator(
     [Routes.MainTabNavigator.Navigator]: MainTabNavigator,
   },
   {
-    initialRouteName: Routes.MainTabNavigator.Navigator, // AuthenticationRoutes.Landing,
+    initialRouteName: AuthenticationRoutes.Landing,
   },
 );
 
